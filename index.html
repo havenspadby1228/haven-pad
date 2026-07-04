@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Haven Pad by 1228 — Booking Tracker</title>
+<meta name="theme-color" content="#2E2119">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Haven Pad">
+<link rel="icon" href="data:image/webp;base64,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">
+<link rel="apple-touch-icon" href="data:image/webp;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --espresso:#2E2119;        /* dark accent wall */
+  --bark:#4A3526;
+  --corduroy:#6B4A2F;        /* bedspread brown */
+  --gold:#C09A4D;            /* logo gold */
+  --gold-soft:#E3CFA0;
+  --amber:#E8B872;           /* sunset light */
+  --terracotta:#C96F4A;      /* "Book your stay" button */
+  --cream:#F6F0E4;           /* paper / curtains */
+  --card:#FDFAF3;
+  --ink:#31261D;
+  --muted:#8A776347;
+  --muted-text:#8A7763;
+  --line:#E4D8C2;
+  --ok:#5E8A5A;
+  --warn:#B4762F;
+  --bad:#B0503C;
+  --shadow:0 6px 24px rgba(46,33,25,.10);
+  --radius:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  font-family:'Nunito Sans',system-ui,-apple-system,sans-serif;
+  background:
+    radial-gradient(1100px 500px at 85% -10%, rgba(232,184,114,.22), transparent 60%),
+    radial-gradient(800px 420px at -10% 110%, rgba(201,111,74,.10), transparent 55%),
+    var(--cream);
+  color:var(--ink);
+  min-height:100vh;
+  padding-bottom:84px;
+}
+@media(min-width:900px){body{padding-bottom:24px}}
+
+/* ---------- Header ---------- */
+header{
+  background:linear-gradient(180deg,#241A13,var(--espresso));
+  color:var(--cream);
+  padding:14px 20px 0;
+  position:sticky;top:0;z-index:50;
+  box-shadow:0 4px 18px rgba(46,33,25,.35);
+}
+.brand{display:flex;align-items:center;gap:12px;padding-bottom:12px}
+.brand img{width:46px;height:46px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.35)}
+.brand h1{font-family:'Playfair Display',serif;font-weight:600;font-size:1.25rem;letter-spacing:.04em;color:var(--gold-soft)}
+.brand h1 span{display:block;font-family:'Nunito Sans',sans-serif;font-size:.66rem;font-weight:700;letter-spacing:.34em;color:var(--amber);text-transform:uppercase;margin-top:2px}
+.hdr-right{margin-left:auto;text-align:right;font-size:.72rem;color:#C9B99B;line-height:1.5}
+.hdr-right b{color:var(--gold-soft)}
+
+nav.tabs{display:none;gap:4px}
+@media(min-width:900px){nav.tabs{display:flex}}
+nav.tabs button{
+  appearance:none;border:0;background:transparent;color:#C9B99B;
+  font:700 .82rem 'Nunito Sans',sans-serif;letter-spacing:.06em;text-transform:uppercase;
+  padding:12px 18px;cursor:pointer;border-radius:12px 12px 0 0;
+}
+nav.tabs button:hover{color:var(--gold-soft)}
+nav.tabs button.active{background:var(--cream);color:var(--espresso)}
+nav.tabs button:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+
+/* Mobile bottom nav */
+.bottomnav{
+  position:fixed;bottom:0;left:0;right:0;z-index:60;
+  display:flex;background:var(--espresso);
+  padding:6px 4px calc(6px + env(safe-area-inset-bottom));
+  box-shadow:0 -4px 18px rgba(46,33,25,.35);
+}
+@media(min-width:900px){.bottomnav{display:none}}
+.bottomnav button{flex:1;appearance:none;border:0;background:transparent;color:#B6A68A;font:700 .6rem 'Nunito Sans';letter-spacing:.04em;padding:8px 2px;border-radius:10px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px}
+.bottomnav button .ic{font-size:1.15rem;line-height:1}
+.bottomnav button.active{color:var(--gold-soft);background:rgba(192,154,77,.14)}
+
+main{max-width:1340px;margin:0 auto;padding:22px 16px}
+section.tab{display:none;animation:fade .25s ease}
+section.tab.show{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){section.tab{animation:none}}
+
+h2.pagetitle{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:600;margin-bottom:4px}
+p.pagesub{color:var(--muted-text);font-size:.9rem;margin-bottom:20px}
+
+/* ---------- Cards & KPIs ---------- */
+.kpis{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:22px}
+@media(min-width:900px){.kpis{grid-template-columns:repeat(4,1fr)}}
+.kpi{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px 18px;box-shadow:var(--shadow);position:relative;overflow:hidden;
+}
+.kpi::after{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--gold)}
+.kpi.t::after{background:var(--terracotta)}
+.kpi.g::after{background:var(--ok)}
+.kpi .lbl{font-size:.68rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-text)}
+.kpi .val{font-family:'Playfair Display',serif;font-size:1.65rem;font-weight:700;margin-top:6px;color:var(--espresso)}
+.kpi .sub{font-size:.74rem;color:var(--muted-text);margin-top:2px}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;margin-bottom:20px}
+.card h3{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:600;margin-bottom:14px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.card h3 .hint{font-family:'Nunito Sans';font-size:.72rem;font-weight:600;color:var(--muted-text);margin-left:auto}
+
+.grid2{display:grid;gap:20px}
+@media(min-width:900px){.grid2{grid-template-columns:1.4fr 1fr}}
+
+/* ---------- Chart ---------- */
+.chart{display:flex;align-items:flex-end;gap:6px;height:190px;padding-top:8px}
+.chart .col{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;min-width:0}
+.chart .bar{width:100%;max-width:38px;border-radius:6px 6px 3px 3px;background:linear-gradient(180deg,var(--amber),var(--corduroy));min-height:3px;transition:height .4s ease;position:relative}
+.chart .bar.now{background:linear-gradient(180deg,var(--gold),var(--terracotta))}
+.chart .bar .tip{position:absolute;top:-20px;left:50%;transform:translateX(-50%);font-size:.62rem;font-weight:800;color:var(--corduroy);white-space:nowrap}
+.chart .m{font-size:.64rem;font-weight:800;color:var(--muted-text);letter-spacing:.04em}
+.yearrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.yearchip{background:var(--cream);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:.78rem;font-weight:700}
+.yearchip b{color:var(--terracotta)}
+
+/* ---------- Tables ---------- */
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+table{width:100%;border-collapse:collapse;font-size:.8rem}
+thead th{background:var(--espresso);color:var(--gold-soft);text-align:left;padding:9px 10px;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap;position:sticky;top:0}
+tbody td{padding:9px 10px;border-top:1px solid var(--line);vertical-align:top}
+tbody tr:nth-child(even){background:#F8F3E7}
+tbody tr:hover{background:#F3EAD6}
+.badge{display:inline-block;padding:3px 10px;border-radius:999px;font-size:.66rem;font-weight:800;letter-spacing:.04em}
+.b-ok{background:#E4EEE2;color:var(--ok)}
+.b-warn{background:#F5E8D2;color:var(--warn)}
+.b-bad{background:#F3DFDA;color:var(--bad)}
+.b-gold{background:#F1E6CB;color:#8A6B23}
+.repeat{display:inline-block;margin-left:6px;font-size:.62rem;font-weight:800;color:#8A6B23;background:#F1E6CB;border:1px solid var(--gold-soft);border-radius:999px;padding:2px 8px}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:middle}
+
+/* ---------- Forms ---------- */
+.frm{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:900px){.frm{grid-template-columns:repeat(4,1fr)}}
+.f{display:flex;flex-direction:column;gap:5px}
+.f.w2{grid-column:span 2}
+.f label{font-size:.66rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted-text)}
+.f input,.f select,.f textarea{
+  font:600 .88rem 'Nunito Sans';color:var(--ink);
+  background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 11px;width:100%;
+}
+.f input:focus,.f select:focus,.f textarea:focus{outline:2px solid var(--gold);border-color:var(--gold)}
+.btn{
+  appearance:none;border:0;cursor:pointer;border-radius:12px;
+  font:800 .8rem 'Nunito Sans';letter-spacing:.05em;padding:11px 20px;
+  background:var(--terracotta);color:#fff;box-shadow:0 3px 10px rgba(201,111,74,.35);
+  transition:transform .08s ease;
+}
+.btn:hover{transform:translateY(-1px)}
+.btn:focus-visible{outline:2px solid var(--espresso);outline-offset:2px}
+.btn.ghost{background:transparent;color:var(--corduroy);border:1.5px solid var(--corduroy);box-shadow:none}
+.btn.gold{background:var(--gold);color:var(--espresso);box-shadow:0 3px 10px rgba(192,154,77,.35)}
+.btn.dark{background:var(--espresso);color:var(--gold-soft)}
+.btn.sm{padding:6px 12px;font-size:.7rem;border-radius:9px}
+.btn.danger{background:transparent;border:1.5px solid var(--bad);color:var(--bad);box-shadow:none}
+.btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;align-items:center}
+.search{max-width:320px;width:100%}
+
+/* ---------- Calendar ---------- */
+.calhead{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+.calhead h3{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:600;min-width:200px}
+.calgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.calgrid .dow{font-size:.62rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted-text);text-align:center;padding:6px 0}
+.day{
+  background:var(--card);border:1px solid var(--line);border-radius:10px;
+  min-height:92px;padding:5px;position:relative;overflow:hidden;cursor:pointer;
+}
+.day:hover{border-color:var(--gold)}
+.day .n{font-size:.68rem;font-weight:800;color:var(--muted-text)}
+.day.out{opacity:.38}
+.day.today{border:2px solid var(--terracotta)}
+.day.today .n{color:var(--terracotta)}
+.pill{
+  font-size:.58rem;font-weight:800;color:#fff;border-radius:6px;padding:2px 5px;margin-top:3px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.pill .st{opacity:.9;font-weight:700}
+.legend{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;font-size:.74rem;font-weight:700}
+.legend .it{display:flex;align-items:center;gap:5px}
+
+/* ---------- Rates ---------- */
+.ratelist{display:grid;gap:10px}
+.raterow{display:grid;grid-template-columns:1.3fr .7fr .8fr auto;gap:8px;align-items:center}
+.raterow input,.raterow select{font:600 .84rem 'Nunito Sans';border:1px solid var(--line);border-radius:9px;padding:8px 10px;width:100%;background:#fff}
+.raterow-sp{grid-template-columns:1.2fr .9fr .9fr .8fr .7fr auto}
+@media(max-width:700px){.raterow,.raterow-sp{grid-template-columns:1fr 1fr;padding:10px;border:1px dashed var(--line);border-radius:10px}}
+.del{appearance:none;border:0;background:#F3DFDA;color:var(--bad);font-weight:900;border-radius:8px;width:32px;height:32px;cursor:pointer}
+
+/* ---------- Calculator quote ---------- */
+.calcgrid{display:grid;gap:20px}
+@media(min-width:960px){.calcgrid{grid-template-columns:1fr 1fr}}
+.quotewrap{display:flex;justify-content:center}
+canvas#quoteCanvas{max-width:100%;height:auto;border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line)}
+.chargechips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:flex;align-items:center;gap:6px;background:var(--cream);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:.76rem;font-weight:700;cursor:pointer;user-select:none}
+.chip input{accent-color:var(--terracotta)}
+
+/* ---------- Modal ---------- */
+.overlay{position:fixed;inset:0;background:rgba(46,33,25,.45);display:none;align-items:flex-end;justify-content:center;z-index:100;padding:0}
+@media(min-width:700px){.overlay{align-items:center;padding:20px}}
+.overlay.show{display:flex}
+.modal{background:var(--card);border-radius:20px 20px 0 0;max-width:640px;width:100%;max-height:88vh;overflow-y:auto;padding:22px;box-shadow:0 -8px 40px rgba(0,0,0,.3)}
+@media(min-width:700px){.modal{border-radius:20px}}
+.modal h3{font-family:'Playfair Display',serif;font-size:1.2rem;margin-bottom:14px}
+
+.empty{padding:30px;text-align:center;color:var(--muted-text);font-size:.86rem}
+.note{font-size:.74rem;color:var(--muted-text);margin-top:10px;line-height:1.6}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:96px;background:var(--espresso);color:var(--gold-soft);font-weight:700;font-size:.82rem;padding:11px 20px;border-radius:999px;box-shadow:var(--shadow);z-index:200;display:none}
+@media(min-width:900px){.toast{bottom:28px}}
+.divider{height:1px;background:var(--line);margin:18px 0}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <img src="data:image/webp;base64,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" alt="Haven Pad by 1228 logo">
+    <h1>Haven Pad <span>by 1228 · Booking Tracker</span></h1>
+    <div class="hdr-right">Your Cozy Stay, Your Home Away<br><b id="hdrDate"></b></div>
+    <button class="btn gold sm" id="syncOpen" style="margin-left:12px;white-space:nowrap">⟳ Sheet sync</button>
+  </div>
+  <nav class="tabs" id="deskNav"></nav>
+</header>
+
+<main>
+
+<!-- ================= DASHBOARD ================= -->
+<section class="tab show" id="tab-dashboard">
+  <h2 class="pagetitle">Dashboard</h2>
+  <p class="pagesub">Comfort, relaxation, and a clear view of every booking.</p>
+
+  <div class="kpis">
+    <div class="kpi t"><div class="lbl">In-house today</div><div class="val" id="kpiActive">0</div><div class="sub" id="kpiActiveSub">guests checked in</div></div>
+    <div class="kpi"><div class="lbl">Bookings this month</div><div class="val" id="kpiMonthCount">0</div><div class="sub" id="kpiMonthName"></div></div>
+    <div class="kpi g"><div class="lbl">Revenue this month</div><div class="val" id="kpiMonthRev">₱0</div><div class="sub">PAID bookings only</div></div>
+    <div class="kpi g"><div class="lbl">Revenue this year</div><div class="val" id="kpiYearRev">₱0</div><div class="sub" id="kpiYearName"></div></div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Revenue per month <span class="hint">PAID only · <span id="chartYearLbl"></span></span></h3>
+      <div style="display:flex;gap:8px;margin-bottom:10px">
+        <button class="btn ghost sm" id="chartPrevYr">‹ Prev year</button>
+        <button class="btn ghost sm" id="chartNextYr">Next year ›</button>
+      </div>
+      <div class="chart" id="revChart"></div>
+      <div class="yearrow" id="yearTotals"></div>
+    </div>
+    <div class="card">
+      <h3>In the pad today</h3>
+      <div id="activeToday"></div>
+      <div class="divider"></div>
+      <h3>Arriving soon</h3>
+      <div id="upcoming"></div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ================= BOOKINGS ================= -->
+<section class="tab" id="tab-bookings">
+  <h2 class="pagetitle">Bookings</h2>
+  <p class="pagesub">Add guest form responses here — this feeds the dashboard and calendar.</p>
+
+  <div class="card">
+    <h3 id="bkFormTitle">New booking</h3>
+    <form id="bookingForm" onsubmit="return false">
+      <input type="hidden" id="bk_id">
+      <div class="frm">
+        <div class="f"><label for="bk_date">Booking date</label><input type="date" id="bk_date" required></div>
+        <div class="f"><label for="bk_guest">Primary guest name</label><input id="bk_guest" required placeholder="e.g. Alora Cruz"></div>
+        <div class="f"><label for="bk_other">Other guest name</label><input id="bk_other" placeholder="optional"></div>
+        <div class="f"><label for="bk_pax">Number of guests (pax)</label><input type="number" id="bk_pax" min="1" value="2"></div>
+        <div class="f"><label for="bk_contact">Contact number</label><input id="bk_contact" placeholder="09XX XXX XXXX"></div>
+        <div class="f"><label for="bk_email">Email address</label><input type="email" id="bk_email" placeholder="guest@email.com"></div>
+        <div class="f"><label for="bk_ci_d">Check-in date</label><input type="date" id="bk_ci_d" required></div>
+        <div class="f"><label for="bk_ci_t">Check-in time</label><input type="time" id="bk_ci_t" required value="14:00"></div>
+        <div class="f"><label for="bk_co_d">Check-out date</label><input type="date" id="bk_co_d" required></div>
+        <div class="f"><label for="bk_co_t">Check-out time</label><input type="time" id="bk_co_t" required value="12:00"></div>
+        <div class="f"><label for="bk_rate">Total rate (₱)</label><input type="number" id="bk_rate" min="0" step="1" placeholder="auto from rates"></div>
+        <div class="f"><label for="bk_dep">Security deposit (₱)</label><input type="number" id="bk_dep" min="0" step="1"></div>
+        <div class="f"><label for="bk_depstat">Deposit status</label><select id="bk_depstat"><option>HELD</option><option>NO DEPOSIT MADE</option><option>REFUNDED</option><option>FORFEITED</option></select></div>
+        <div class="f"><label for="bk_pay">Payment status</label><select id="bk_pay"><option>UNPAID</option><option>DOWNPAYMENT</option><option>PAID</option><option>CANCELLED</option></select></div>
+        <div class="f w2"><label for="bk_remarks">Remarks</label><input id="bk_remarks" placeholder="notes, IDs, requests…"></div>
+      </div>
+      <div class="btnrow">
+        <button class="btn" id="bkSave">Save booking</button>
+        <button class="btn gold" id="bkAutoRate" type="button">Auto-compute rate</button>
+        <button class="btn ghost" id="bkClear" type="button">Clear form</button>
+        <span class="note" id="bkAutoNote" style="margin:0"></span>
+      </div>
+    </form>
+  </div>
+
+  <div class="card">
+    <h3>All bookings <span class="hint"></span></h3>
+    <div class="btnrow" style="margin:0 0 12px;align-items:flex-end">
+      <div class="f" style="min-width:200px;flex:1;max-width:280px"><label for="fltQ">Search</label><input id="fltQ" placeholder="guest, booking no., contact…"></div>
+      <div class="f"><label for="fltMonth">Month</label><select id="fltMonth"><option value="">All months</option></select></div>
+      <div class="f"><label for="fltYear">Year</label><select id="fltYear"><option value="">All years</option></select></div>
+      <button class="btn ghost sm" id="fltClear" style="margin-bottom:2px">Clear</button>
+      <span style="flex:1"></span>
+      <button class="btn ghost sm" id="btnExportCsv" style="margin-bottom:2px">Export CSV</button>
+      <label class="btn ghost sm" style="display:inline-flex;align-items:center;cursor:pointer;margin-bottom:2px">Import CSV<input type="file" id="csvFile" accept=".csv" hidden></label>
+    </div>
+    <p class="note" id="fltSummary" style="margin:0 0 10px"></p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Booking</th><th>Guest & Contact</th><th>Stay</th><th>Hrs / D / N</th><th>Rate</th><th>Status</th><th>Actions</th></tr></thead>
+      <tbody id="bookingRows"></tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ================= CALENDAR ================= -->
+<section class="tab" id="tab-calendar">
+  <h2 class="pagetitle">Booking calendar</h2>
+  <p class="pagesub">Every stay at Haven Pad — each guest has their own color; ★ marks a repeat guest.</p>
+  <div class="card">
+    <div class="calhead">
+      <button class="btn ghost sm" id="calPrev">‹</button>
+      <h3 id="calTitle"></h3>
+      <button class="btn ghost sm" id="calNext">›</button>
+      <button class="btn dark sm" id="calToday">Today</button>
+    </div>
+    <div class="calgrid" id="calGrid"></div>
+    <div class="legend" id="calLegend"></div>
+  </div>
+</section>
+
+<!-- ================= RATES ================= -->
+<section class="tab" id="tab-rates">
+  <h2 class="pagetitle">Rates editor</h2>
+  <p class="pagesub">Update stay blocks, per-date or per-month special rates, and additional charges. The calculator and auto-rate use these.</p>
+
+  <div class="card">
+    <h3>Stay blocks & promos <span class="hint">label · hours · price</span></h3>
+    <div class="ratelist" id="blockList"></div>
+    <div class="btnrow">
+      <button class="btn gold sm" id="addBlock">+ Add block</button>
+    </div>
+    <div class="divider"></div>
+    <div class="frm" style="grid-template-columns:repeat(2,1fr);max-width:520px">
+      <div class="f"><label for="extRate">Extension rate (₱ / hour)</label><input type="number" id="extRate" min="0"></div>
+      <div class="f"><label for="defDep">Default security deposit (₱)</label><input type="number" id="defDep" min="0"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Special rates by date or month <span class="hint">surcharge or discount applied when a stay overlaps</span></h3>
+    <div class="ratelist" id="specialList"></div>
+    <div class="btnrow"><button class="btn gold sm" id="addSpecial">+ Add special rate</button></div>
+    <p class="note">Examples: “Holy Week +₱300 flat”, “December +15%”, “Anniversary promo −10%”. Choose <b>Month (yearly)</b> to apply every year, or a specific date range.</p>
+  </div>
+
+  <div class="card">
+    <h3>Additional charges <span class="hint">selectable in the rate calculator</span></h3>
+    <div class="ratelist" id="chargeList"></div>
+    <div class="btnrow"><button class="btn gold sm" id="addCharge">+ Add charge</button></div>
+  </div>
+
+  <div class="btnrow"><button class="btn" id="saveRates">Save all rates</button><span class="note" style="margin:0" id="ratesSavedNote"></span></div>
+</section>
+
+<!-- ================= CALCULATOR ================= -->
+<section class="tab" id="tab-calc">
+  <h2 class="pagetitle">Rate calculator</h2>
+  <p class="pagesub">Quote a sample guest, preview the branded breakdown, then download it as PNG or JPEG to send.</p>
+
+  <div class="calcgrid">
+    <div class="card">
+      <h3>Inquiry details</h3>
+      <div class="frm" style="grid-template-columns:repeat(2,1fr)">
+        <div class="f w2"><label for="cc_guest">Sample guest name</label><input id="cc_guest" placeholder="e.g. Sample Guest"></div>
+        <div class="f"><label for="cc_ci_d">Check-in date</label><input type="date" id="cc_ci_d"></div>
+        <div class="f"><label for="cc_ci_t">Check-in time</label><input type="time" id="cc_ci_t" value="14:00"></div>
+        <div class="f"><label for="cc_co_d">Check-out date</label><input type="date" id="cc_co_d"></div>
+        <div class="f"><label for="cc_co_t">Check-out time</label><input type="time" id="cc_co_t" value="12:00"></div>
+        <div class="f"><label for="cc_dep">Security deposit (₱)</label><input type="number" id="cc_dep" min="0" step="1" placeholder="default"></div>
+      </div>
+      <div class="divider"></div>
+      <div class="f" style="margin-bottom:10px"><label>Additional charges</label></div>
+      <div class="chargechips" id="calcCharges"></div>
+      <div class="btnrow">
+        <button class="btn" id="calcBtn">Calculate rate</button>
+        <button class="btn dark" id="dlPng">Download PNG</button>
+        <button class="btn ghost" id="dlJpg">Download JPEG</button>
+      </div>
+      <p class="note" id="calcNote"></p>
+    </div>
+    <div class="card">
+      <h3>Guest-ready breakdown</h3>
+      <div class="quotewrap"><canvas id="quoteCanvas" width="720" height="900"></canvas></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Google Sheet sync modal -->
+<div class="overlay" id="syncOverlay">
+  <div class="modal">
+    <h3>Google Sheet sync</h3>
+    <div class="f" style="margin-bottom:12px">
+      <label for="syncUrl">Apps Script web app URL (ends in /exec)</label>
+      <input id="syncUrl" placeholder="https://script.google.com/macros/s/…/exec">
+    </div>
+    <div class="f" style="margin-bottom:12px">
+      <label for="syncKey">Access key</label>
+      <input id="syncKey" placeholder="required if the script has ACCESS_KEY set">
+    </div>
+    <label class="chip" style="margin-bottom:14px"><input type="checkbox" id="syncAuto"> Auto-pull from the sheet every time the app opens</label>
+    <div class="btnrow">
+      <button class="btn" id="syncPull">⬇ Pull from sheet</button>
+      <button class="btn dark" id="syncPush">⬆ Push to sheet</button>
+      <button class="btn gold" id="syncSave">Save settings</button>
+      <button class="btn ghost" id="syncClose">Close</button>
+    </div>
+    <p class="note"><b>Pull</b> replaces this app's guest list with what's in your Google Sheet. <b>Push</b> writes the app's bookings into the sheet — it matches rows by Booking Number, updating existing rows and appending new ones (it never deletes sheet rows). If you edited bookings here, push before you pull.</p>
+    <p class="note"><b>One-time setup:</b> open your spreadsheet → Extensions → Apps Script → paste the HavenPad_Sheet_Sync.gs code → set SHEET_NAME to your tab name → Deploy → New deployment → Web app → Execute as <b>Me</b>, access <b>Anyone with the link</b> → copy the /exec URL here. To protect your data, also set <b>ACCESS_KEY</b> at the top of the script (e.g. 'haven2026'), redeploy a New version, and enter the same key above — every device will be asked for it once.</p>
+    <p class="note" id="syncStatus"></p>
+  </div>
+</div>
+
+<!-- Guest voucher modal -->
+<div class="overlay" id="vchOverlay">
+  <div class="modal" style="max-width:820px">
+    <h3 id="vchTitle">Guest voucher</h3>
+    <div class="quotewrap" style="margin-bottom:14px"><canvas id="voucherCanvas" width="720" height="900" style="max-width:100%;height:auto;border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line)"></canvas></div>
+    <div class="btnrow">
+      <button class="btn dark" id="vchPng">Download PNG</button>
+      <button class="btn" id="vchJpg">Download JPEG</button>
+      <button class="btn gold" id="vchPdf">Download PDF</button>
+      <button class="btn ghost" id="vchClose">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Day detail modal -->
+<div class="overlay" id="dayOverlay">
+  <div class="modal">
+    <h3 id="dayModalTitle"></h3>
+    <div id="dayModalBody"></div>
+    <div class="btnrow"><button class="btn ghost" id="dayClose">Close</button></div>
+  </div>
+</div>
+
+<div class="bottomnav" id="mobNav"></div>
+<div class="toast" id="toast"></div>
+<script>
+/* ═══════════════════════════════════════════════════════════════════
+   ⇩⇩⇩  LIVE SHEET CONNECTION — paste your Apps Script /exec URL below,
+        between the quotes. Once set, every device auto-connects and
+        auto-pulls your Google Sheet on open. Leave '' to use the
+        manual ⟳ Sheet sync panel instead.
+   ═══════════════════════════════════════════════════════════════════ */
+const DEFAULT_SYNC_URL = '';
+/* Optional: bake the access key too (auto-connect with zero prompts on every
+   device). Leave '' to keep the key OUT of the public page — each device will
+   then ask for it once and remember it. */
+const DEFAULT_SYNC_KEY = '';
+
+/* ============ Storage (works in claude.ai artifacts, browsers, and saved offline) ============ */
+const Store = {
+  KEY:'havenpad-data-v1',
+  async load(){
+    try{ if(window.storage){ const r=await window.storage.get(this.KEY); if(r&&r.value) return JSON.parse(r.value);} }catch(e){}
+    try{ const r=localStorage.getItem(this.KEY); if(r) return JSON.parse(r);}catch(e){}
+    return null;
+  },
+  _t:null,
+  save(data){
+    clearTimeout(this._t);
+    this._t=setTimeout(async()=>{
+      const s=JSON.stringify(data);
+      try{ if(window.storage){ await window.storage.set(this.KEY,s); return;} }catch(e){}
+      try{ localStorage.setItem(this.KEY,s);}catch(e){}
+    },300);
+  }
+};
+
+/* ============ State + seed (from the Haven Pad sheet) ============ */
+let S = null;
+const uid = ()=>Math.random().toString(36).slice(2,10);
+
+function seed(){
+  return {
+    bookings:[
+      {id:uid(),bookingNo:'TH062226-025',bookingDate:'2026-06-19',guest:'Thomas John Valbuena',other:'Arrianne Joy Aguilar',pax:2,contact:'9184003743',email:'thomasjohnvalbuena06@gmail.com',ciD:'2026-06-22',ciT:'09:00',coD:'2026-06-22',coT:'17:00',rate:1099,dep:200,depStat:'REFUNDED',pay:'PAID',remarks:''},
+      {id:uid(),bookingNo:'JO062826-028',bookingDate:'2026-06-25',guest:'John Fritz Labinghisa',other:'March Andrine',pax:2,contact:'09997912099',email:'lmjohn227@gmail.com',ciD:'2026-06-28',ciT:'21:00',coD:'2026-06-29',coT:'09:00',rate:1399,dep:200,depStat:'REFUNDED',pay:'CANCELLED',remarks:'CANCELED WALANG ID'},
+      {id:uid(),bookingNo:'KR062626-028',bookingDate:'2026-06-25',guest:'Kriselle Avellano',other:'Angelica Ama',pax:2,contact:'09171579242',email:'beltrancassandraishi@gmail.com',ciD:'2026-06-26',ciT:'10:00',coD:'2026-06-28',coT:'16:00',rate:4697,dep:200,depStat:'HELD',pay:'PAID',remarks:''},
+      {id:uid(),bookingNo:'AC062426-026',bookingDate:'2026-07-02',guest:'Alora Cruz',other:'Andrew Aranda',pax:2,contact:'9155216037',email:'aloramariexoxo@gmail.com',ciD:'2026-07-02',ciT:'21:30',coD:'2026-07-03',coT:'07:30',rate:1299,dep:200,depStat:'HELD',pay:'PAID',remarks:''},
+      {id:uid(),bookingNo:'AP070326-029',bookingDate:'2026-07-03',guest:'Apple Mae Guzon',other:'Jermy Loberiano',pax:2,contact:'09812062327',email:'abisguzon767@gmail.com',ciD:'2026-07-03',ciT:'13:00',coD:'2026-07-05',coT:'12:00',rate:3848,dep:300,depStat:'HELD',pay:'DOWNPAYMENT',remarks:''}
+    ],
+    rates:[
+      {id:uid(),label:'8 Hrs Promo',hours:8,price:1099},
+      {id:uid(),label:'10 Hrs Promo',hours:10,price:1299},
+      {id:uid(),label:'12 Hrs Promo',hours:12,price:1399},
+      {id:uid(),label:'22 Hrs Block',hours:22,price:1699}
+    ],
+    extRate:150, defDep:200,
+    specials:[
+      {id:uid(),label:'December Peak',mode:'month',month:12,start:'',end:'',kind:'percent',amount:15},
+      {id:uid(),label:'New Year (Dec 30 – Jan 2)',mode:'range',month:1,start:'2026-12-30',end:'2027-01-02',kind:'flat',amount:300}
+    ],
+    charges:[
+      {id:uid(),label:'Extra Pax (per head)',amount:150},
+      {id:uid(),label:'Early Check-in',amount:200},
+      {id:uid(),label:'Late Check-out (per hr)',amount:150},
+      {id:uid(),label:'Parking',amount:100}
+    ]
+  };
+}
+
+/* ============ Utils ============ */
+const peso = n=>'₱'+Math.round(n).toLocaleString('en-PH');
+const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+const MMM=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function dt(dateStr,timeStr){ return new Date(dateStr+'T'+(timeStr||'00:00')); }
+function fmtD(dateStr){ if(!dateStr)return''; const d=new Date(dateStr+'T00:00'); return MMM[d.getMonth()]+' '+d.getDate(); }
+function fmtDT(dateStr,timeStr){ if(!dateStr)return''; const d=dt(dateStr,timeStr); let h=d.getHours(),m=d.getMinutes(),ap=h>=12?'PM':'AM'; h=h%12||12; return fmtD(dateStr)+' · '+h+':'+String(m).padStart(2,'0')+' '+ap; }
+function hoursBetween(b){ const ms=dt(b.coD,b.coT)-dt(b.ciD,b.ciT); return Math.max(0,Math.round(ms/36e5)); }
+function nightsBetween(b){ const a=new Date(b.ciD+'T00:00'), c=new Date(b.coD+'T00:00'); return Math.max(0,Math.round((c-a)/864e5)); }
+function daysBetween(b){ return nightsBetween(b)+1; }
+function isoLocal(d){ return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); }
+function todayStr(){ return isoLocal(new Date()); }
+function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function isPaid(b){ const p=(b.pay||'').toUpperCase(); return /PAID/.test(p) && !/UNPAID/.test(p) && !isCancelled(b); }
+function isCancelled(b){ return /cancel/i.test(b.pay||'') || /^\s*cancel/i.test(b.remarks||''); }
+function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.style.display='block'; clearTimeout(t._x); t._x=setTimeout(()=>t.style.display='none',2400); }
+function normName(s){ return (s||'').trim().toLowerCase().replace(/\s+/g,' '); }
+function repeatCounts(){ const m={}; S.bookings.forEach(b=>{ const k=normName(b.guest); if(k) m[k]=(m[k]||0)+1;}); return m; }
+const GUEST_COLORS=['#C96F4A','#6B4A2F','#C09A4D','#5E8A5A','#8A5A83','#4A6B8A','#B0503C','#7A6B2F','#3E7A72','#96604A'];
+function guestColor(name){ const k=normName(name); let h=0; for(let i=0;i<k.length;i++){h=(h*31+k.charCodeAt(i))>>>0;} return GUEST_COLORS[h%GUEST_COLORS.length]; }
+function genBookingNo(guest,ciD){
+  const ini=(guest||'XX').trim().slice(0,2).toUpperCase().padEnd(2,'X');
+  const d=new Date((ciD||todayStr())+'T00:00');
+  const mmddyy=String(d.getMonth()+1).padStart(2,'0')+String(d.getDate()).padStart(2,'0')+String(d.getFullYear()).slice(2);
+  const seq=String(S.bookings.length+1).padStart(3,'0');
+  return ini+mmddyy+'-'+seq;
+}
+
+/* ============ Navigation ============ */
+const TABS=[['dashboard','Dashboard','🏡'],['bookings','Bookings','📝'],['calendar','Calendar','📅'],['rates','Rates','🏷️'],['calc','Calculator','🧮']];
+function buildNav(){
+  const d=document.getElementById('deskNav'), m=document.getElementById('mobNav');
+  TABS.forEach(([k,l,ic])=>{
+    const b1=document.createElement('button'); b1.textContent=l; b1.dataset.tab=k; b1.onclick=()=>showTab(k); d.appendChild(b1);
+    const b2=document.createElement('button'); b2.innerHTML='<span class="ic">'+ic+'</span>'+l; b2.dataset.tab=k; b2.onclick=()=>showTab(k); m.appendChild(b2);
+  });
+}
+function showTab(k){
+  document.querySelectorAll('section.tab').forEach(s=>s.classList.toggle('show',s.id==='tab-'+k));
+  document.querySelectorAll('nav.tabs button,.bottomnav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===k));
+  if(k==='dashboard')renderDashboard();
+  if(k==='calendar')renderCalendar();
+  if(k==='rates')renderRates();
+  if(k==='calc')renderCalcCharges();
+  window.scrollTo({top:0});
+}
+
+/* ============ Dashboard ============ */
+let chartYear=new Date().getFullYear();
+function renderDashboard(){
+  const now=new Date(), y=now.getFullYear(), mo=now.getMonth(), tStr=todayStr();
+  const live=S.bookings.filter(b=>!isCancelled(b));
+  // active today: checkin <= now <= checkout
+  const active=live.filter(b=> dt(b.ciD,b.ciT)<=now && now<=dt(b.coD,b.coT));
+  document.getElementById('kpiActive').textContent=active.reduce((a,b)=>a+(+b.pax||1),0);
+  document.getElementById('kpiActiveSub').textContent=active.length+' booking'+(active.length===1?'':'s')+' in-house';
+  const paid=live.filter(isPaid);
+  const monthBk=live.filter(b=>{const d=new Date(b.ciD+'T00:00');return d.getFullYear()===y&&d.getMonth()===mo;});
+  document.getElementById('kpiMonthCount').textContent=monthBk.length;
+  document.getElementById('kpiMonthName').textContent=MONTHS[mo]+' '+y;
+  document.getElementById('kpiMonthRev').textContent=peso(paid.filter(b=>{const d=new Date(b.ciD+'T00:00');return d.getFullYear()===y&&d.getMonth()===mo;}).reduce((a,b)=>a+(+b.rate||0),0));
+  document.getElementById('kpiYearRev').textContent=peso(paid.filter(b=>new Date(b.ciD+'T00:00').getFullYear()===y).reduce((a,b)=>a+(+b.rate||0),0));
+  document.getElementById('kpiYearName').textContent='Jan – Dec '+y;
+
+  // chart
+  document.getElementById('chartYearLbl').textContent=chartYear;
+  const per=Array(12).fill(0);
+  live.filter(isPaid).forEach(b=>{const d=new Date(b.ciD+'T00:00'); if(d.getFullYear()===chartYear) per[d.getMonth()]+=(+b.rate||0);});
+  const mx=Math.max(...per,1);
+  const ch=document.getElementById('revChart'); ch.innerHTML='';
+  per.forEach((v,i)=>{
+    const col=document.createElement('div');col.className='col';
+    const h=Math.round(v/mx*150);
+    col.innerHTML='<div class="bar'+(chartYear===y&&i===mo?' now':'')+'" style="height:'+h+'px">'+(v?'<span class="tip">'+peso(v)+'</span>':'')+'</div><div class="m">'+MMM[i]+'</div>';
+    ch.appendChild(col);
+  });
+  // year totals chips
+  const yt={}; live.filter(isPaid).forEach(b=>{const yy=new Date(b.ciD+'T00:00').getFullYear(); yt[yy]=(yt[yy]||0)+(+b.rate||0);});
+  document.getElementById('yearTotals').innerHTML=Object.keys(yt).sort().map(yy=>'<span class="yearchip">'+yy+' · <b>'+peso(yt[yy])+'</b></span>').join('')||'<span class="note">No revenue yet.</span>';
+
+  // active today panel
+  const at=document.getElementById('activeToday');
+  at.innerHTML = active.length? active.map(b=>rowMini(b,'until '+fmtDT(b.coD,b.coT))).join('') : '<div class="empty">No guests in the pad right now.</div>';
+  const up=live.filter(b=>dt(b.ciD,b.ciT)>now).sort((a,b)=>dt(a.ciD,a.ciT)-dt(b.ciD,b.ciT)).slice(0,4);
+  document.getElementById('upcoming').innerHTML= up.length? up.map(b=>rowMini(b,'arrives '+fmtDT(b.ciD,b.ciT))).join('') : '<div class="empty">No upcoming arrivals.</div>';
+
+}
+function rowMini(b,sub){
+  const rc=repeatCounts();
+  return '<div style="display:flex;align-items:center;gap:10px;padding:9px 4px;border-bottom:1px dashed var(--line)">'
+   +'<span class="dot" style="background:'+guestColor(b.guest)+'"></span>'
+   +'<div style="min-width:0"><b style="font-size:.86rem">'+esc(b.guest)+'</b>'+(rc[normName(b.guest)]>1?'<span class="repeat">★ Repeat</span>':'')
+   +'<div style="font-size:.72rem;color:var(--muted-text)">'+esc(b.bookingNo)+' · '+sub+'</div></div>'
+   +'<b style="margin-left:auto;font-size:.82rem;color:var(--corduroy)">'+peso(b.rate||0)+'</b></div>';
+}
+function payBadge(p){ p=(p||'').toUpperCase(); const cls=/CANCEL/.test(p)?'b-bad':(/PAID/.test(p)&&!/UNPAID/.test(p))?'b-ok':p==='DOWNPAYMENT'?'b-warn':'b-gold'; return '<span class="badge '+cls+'">'+esc(p||'—')+'</span>'; }
+function depBadge(p){ p=(p||'').toUpperCase(); const cls=p==='REFUNDED'?'b-ok':(p==='FORFEITED'||/NO DEPOSIT/.test(p))?'b-bad':'b-gold'; return '<span class="badge '+cls+'">'+esc(p||'—')+'</span>'; }
+</script>
+<script>
+/* ============ Bookings CRUD ============ */
+function bkFields(){ return ['bk_date','bk_guest','bk_other','bk_pax','bk_contact','bk_email','bk_ci_d','bk_ci_t','bk_co_d','bk_co_t','bk_rate','bk_dep','bk_depstat','bk_pay','bk_remarks']; }
+function clearBookingForm(){
+  document.getElementById('bk_id').value='';
+  bkFields().forEach(id=>{const el=document.getElementById(id); if(el.tagName==='SELECT')el.selectedIndex=0; else el.value='';});
+  document.getElementById('bk_date').value=todayStr();
+  document.getElementById('bk_pax').value=2;
+  document.getElementById('bk_ci_t').value='14:00'; document.getElementById('bk_co_t').value='12:00';
+  document.getElementById('bk_dep').value=S.defDep;
+  document.getElementById('bkFormTitle').textContent='New booking';
+  document.getElementById('bkAutoNote').textContent='';
+}
+function readBookingForm(){
+  return {
+    bookingDate:document.getElementById('bk_date').value,
+    guest:document.getElementById('bk_guest').value.trim(),
+    other:document.getElementById('bk_other').value.trim(),
+    pax:+document.getElementById('bk_pax').value||1,
+    contact:document.getElementById('bk_contact').value.trim(),
+    email:document.getElementById('bk_email').value.trim(),
+    ciD:document.getElementById('bk_ci_d').value, ciT:document.getElementById('bk_ci_t').value,
+    coD:document.getElementById('bk_co_d').value, coT:document.getElementById('bk_co_t').value,
+    rate:+document.getElementById('bk_rate').value||0,
+    dep:+document.getElementById('bk_dep').value||0,
+    depStat:document.getElementById('bk_depstat').value,
+    pay:document.getElementById('bk_pay').value,
+    remarks:document.getElementById('bk_remarks').value.trim()
+  };
+}
+function saveBooking(){
+  const f=readBookingForm();
+  if(!f.guest||!f.ciD||!f.coD){ toast('Guest name, check-in and check-out are required'); return; }
+  if(dt(f.coD,f.coT)<=dt(f.ciD,f.ciT)){ toast('Check-out must be after check-in'); return; }
+  if(!f.rate){ const r=computeRate(f.ciD,f.ciT,f.coD,f.coT,[]); f.rate=r.roomTotal; }
+  const id=document.getElementById('bk_id').value;
+  if(id){ const b=S.bookings.find(x=>x.id===id); Object.assign(b,f); toast('Booking updated'); }
+  else { S.bookings.push(Object.assign({id:uid(),bookingNo:genBookingNo(f.guest,f.ciD)},f)); toast('Booking saved — '+f.guest); }
+  Store.save(S); clearBookingForm(); renderBookingRows(); renderDashboard();
+  if(S.syncUrl) pushSheet(); // live: write straight to the Google Sheet
+}
+function editBooking(id){
+  const b=S.bookings.find(x=>x.id===id); if(!b)return;
+  showTab('bookings');
+  document.getElementById('bk_id').value=b.id;
+  document.getElementById('bk_date').value=b.bookingDate||''; document.getElementById('bk_guest').value=b.guest||'';
+  document.getElementById('bk_other').value=b.other||''; document.getElementById('bk_pax').value=b.pax||1;
+  document.getElementById('bk_contact').value=b.contact||''; document.getElementById('bk_email').value=b.email||'';
+  document.getElementById('bk_ci_d').value=b.ciD||''; document.getElementById('bk_ci_t').value=b.ciT||'14:00';
+  document.getElementById('bk_co_d').value=b.coD||''; document.getElementById('bk_co_t').value=b.coT||'12:00';
+  document.getElementById('bk_rate').value=b.rate||''; document.getElementById('bk_dep').value=b.dep||0;
+  document.getElementById('bk_depstat').value=b.depStat||'HELD'; document.getElementById('bk_pay').value=b.pay||'UNPAID';
+  document.getElementById('bk_remarks').value=b.remarks||'';
+  document.getElementById('bkFormTitle').textContent='Edit booking — '+b.bookingNo;
+}
+function deleteBooking(id){
+  const b=S.bookings.find(x=>x.id===id); if(!b)return;
+  if(!confirm('Delete booking '+b.bookingNo+' ('+b.guest+')? This cannot be undone.'))return;
+  S.bookings=S.bookings.filter(x=>x.id!==id); Store.save(S);
+  renderBookingRows(); renderDashboard(); toast('Booking deleted');
+  if(S.syncUrl) deleteFromSheet_(b.bookingNo);
+}
+async function deleteFromSheet_(no,retried){
+  try{
+    const res=await fetch(syncUrlWithKey_(),{method:'POST',redirect:'follow',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({action:'delete',bookingNos:[no]})});
+    const j=await res.json();
+    if(j.ok && j.deleted!==undefined){ toast(j.deleted?('Row removed from the sheet too'):'Row not found in the sheet'); return; }
+    if(!j.ok && /unauthorized/i.test(String(j.error)) && !retried && askForKey_()) return deleteFromSheet_(no,true);
+    toast('Sheet not updated — remove row '+no+' in Google Sheets (script may need the latest version)');
+  }catch(e){
+    toast('Sheet not updated — remove row '+no+' in Google Sheets manually');
+  }
+}
+function bookingFilters_(){
+  return {
+    q:(document.getElementById('fltQ')?.value||'').toLowerCase().trim(),
+    m:document.getElementById('fltMonth')?.value||'',
+    y:document.getElementById('fltYear')?.value||''
+  };
+}
+function fillFilterOptions_(){
+  const mSel=document.getElementById('fltMonth'), ySel=document.getElementById('fltYear');
+  if(!mSel||!ySel)return;
+  if(mSel.options.length===1) MONTHS.forEach((m,i)=>{const o=document.createElement('option');o.value=String(i+1);o.textContent=m;mSel.appendChild(o);});
+  const years=[...new Set(S.bookings.map(b=>(b.ciD||'').slice(0,4)).filter(Boolean))].sort().reverse();
+  const cur=ySel.value;
+  ySel.innerHTML='<option value="">All years</option>'+years.map(y=>'<option'+(y===cur?' selected':'')+'>'+y+'</option>').join('');
+}
+function renderBookingRows(){
+  fillFilterOptions_();
+  const f=bookingFilters_();
+  const list=S.bookings.filter(b=>{
+    if(f.q && ![b.guest,b.other,b.bookingNo,b.contact,b.email,b.remarks].join(' ').toLowerCase().includes(f.q)) return false;
+    const d=b.ciD||'';
+    if(f.y && d.slice(0,4)!==f.y) return false;
+    if(f.m && String(+d.slice(5,7))!==f.m) return false;
+    return true;
+  });
+  const sum=document.getElementById('fltSummary');
+  if(sum){
+    const tot=list.filter(b=>!isCancelled(b)).reduce((a,b)=>a+(+b.rate||0),0);
+    const paidTot=list.filter(isPaid).reduce((a,b)=>a+(+b.rate||0),0);
+    sum.textContent='Showing '+list.length+' of '+S.bookings.length+' bookings'
+      +((f.m||f.y||f.q)?(' · Rate total '+peso(tot)+' · PAID '+peso(paidTot)):'');
+  }
+  const rows=list.slice().sort((a,b)=>(b.ciD||'').localeCompare(a.ciD||'')).map(b=>
+    '<tr><td><b>'+esc(b.bookingNo)+'</b><div style="font-size:.68rem;color:var(--muted-text)">booked '+fmtD(b.bookingDate)+'</div></td>'
+    +'<td><b>'+esc(b.guest)+'</b>'+(b.other?'<div style="font-size:.7rem;color:var(--muted-text)">w/ '+esc(b.other)+'</div>':'')
+    +'<div style="font-size:.7rem;color:var(--muted-text)">'+esc(b.contact)+(b.email?' · '+esc(b.email):'')+'</div></td>'
+    +'<td style="white-space:nowrap">'+fmtDT(b.ciD,b.ciT)+'<div style="font-size:.72rem;color:var(--muted-text)">→ '+fmtDT(b.coD,b.coT)+'</div></td>'
+    +'<td style="white-space:nowrap">'+hoursBetween(b)+' / '+daysBetween(b)+' / '+nightsBetween(b)+'</td>'
+    +'<td style="white-space:nowrap"><b>'+peso(b.rate||0)+'</b><div style="font-size:.68rem;color:var(--muted-text)">dep '+peso(b.dep||0)+'</div></td>'
+    +'<td>'+payBadge(b.pay)+'<br>'+depBadge(b.depStat)+'</td>'
+    +'<td style="white-space:nowrap"><div style="display:flex;gap:4px;align-items:center"><button class="btn ghost sm" onclick="editBooking(\''+b.id+'\')">Edit</button>'
+    +'<button class="btn gold sm" onclick="openVoucher(\''+b.id+'\')">Generate</button>'
+    +'<button class="btn danger sm" onclick="deleteBooking(\''+b.id+'\')">✕</button></div></td></tr>').join('');
+  document.getElementById('bookingRows').innerHTML=rows||'<tr><td colspan="7"><div class="empty">No bookings yet.</div></td></tr>';
+}
+
+/* ============ CSV ============ */
+function exportCsv(){
+  const H=['Booking Number','Booking Date','Primary Guest Name','Other Guest Name','Number of Guests (Pax)','Contact Number','Email Address','Check-In Date','Check-In Time','Check-Out Date','Check-Out Time','Total Hours','Total Days','Total Nights','Total Rate','Security Deposit','Deposit Status','Payment Status','Remarks'];
+  const q=v=>'"'+String(v==null?'':v).replace(/"/g,'""')+'"';
+  const lines=[H.map(q).join(',')].concat(S.bookings.map(b=>[b.bookingNo,b.bookingDate,b.guest,b.other,b.pax,b.contact,b.email,b.ciD,b.ciT,b.coD,b.coT,hoursBetween(b),daysBetween(b),nightsBetween(b),b.rate,b.dep,b.depStat,b.pay,b.remarks].map(q).join(',')));
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([lines.join('\n')],{type:'text/csv'}));
+  a.download='HavenPad_Bookings.csv'; a.click(); toast('CSV exported');
+}
+function parseCsv(text){
+  const rows=[];let row=[],cur='',inQ=false;
+  for(let i=0;i<text.length;i++){const c=text[i];
+    if(inQ){ if(c==='"'){ if(text[i+1]==='"'){cur+='"';i++;} else inQ=false; } else cur+=c; }
+    else if(c==='"')inQ=true;
+    else if(c===','){row.push(cur);cur='';}
+    else if(c==='\n'||c==='\r'){ if(c==='\r'&&text[i+1]==='\n')i++; row.push(cur);cur=''; if(row.some(v=>v!==''))rows.push(row); row=[]; }
+    else cur+=c;
+  }
+  if(cur!==''||row.length){row.push(cur); if(row.some(v=>v!==''))rows.push(row);}
+  return rows;
+}
+function toISODate(v){
+  v=(v||'').trim(); if(!v)return'';
+  if(/^\d{4}-\d{2}-\d{2}$/.test(v))return v;
+  const d=new Date(v); if(!isNaN(d)) return isoLocal(d);
+  return '';
+}
+function to24h(v){
+  v=(v||'').trim(); if(!v)return'';
+  if(/^\d{1,2}:\d{2}$/.test(v)&&!/am|pm/i.test(v))return v.padStart(5,'0');
+  const m=v.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i); if(!m)return'';
+  let h=+m[1]; if(/pm/i.test(m[3])&&h!==12)h+=12; if(/am/i.test(m[3])&&h===12)h=0;
+  return String(h).padStart(2,'0')+':'+m[2];
+}
+function importCsv(file){
+  const r=new FileReader();
+  r.onload=()=>{
+    const rows=parseCsv(r.result); if(rows.length<2){toast('CSV looks empty');return;}
+    const head=rows[0].map(h=>h.toLowerCase().trim());
+    const col=(...names)=>{for(const n of names){const i=head.findIndex(h=>h.includes(n)); if(i>-1)return i;} return -1;};
+    const c={no:col('booking number'),bd:col('booking date'),g:col('primary guest'),o:col('other guest'),pax:col('pax','number of guests'),ct:col('contact'),em:col('email'),cid:col('check-in date','check in date'),cit:col('check-in time','check in time'),cod:col('check-out date','check out date'),cot:col('check-out time','check out time'),rate:col('total rate'),dep:col('security deposit'),ds:col('deposit status'),ps:col('payment status'),rm:col('remarks')};
+    let n=0;
+    rows.slice(1).forEach(rw=>{
+      const g=c.g>-1?rw[c.g]:''; const cid=toISODate(c.cid>-1?rw[c.cid]:'');
+      if(!g||!cid)return;
+      S.bookings.push({id:uid(),
+        bookingNo:(c.no>-1&&rw[c.no])||genBookingNo(g,cid),
+        bookingDate:toISODate(c.bd>-1?rw[c.bd]:'')||cid, guest:g.trim(), other:c.o>-1?rw[c.o].trim():'',
+        pax:+(c.pax>-1?rw[c.pax]:2)||2, contact:c.ct>-1?rw[c.ct].trim():'', email:c.em>-1?rw[c.em].trim():'',
+        ciD:cid, ciT:to24h(c.cit>-1?rw[c.cit]:'')||'14:00',
+        coD:toISODate(c.cod>-1?rw[c.cod]:'')||cid, coT:to24h(c.cot>-1?rw[c.cot]:'')||'12:00',
+        rate:+String(c.rate>-1?rw[c.rate]:'0').replace(/[^\d.]/g,'')||0,
+        dep:+String(c.dep>-1?rw[c.dep]:'0').replace(/[^\d.]/g,'')||0,
+        depStat:(c.ds>-1?rw[c.ds]:'HELD').toUpperCase()||'HELD',
+        pay:(c.ps>-1?rw[c.ps]:'UNPAID').toUpperCase()||'UNPAID',
+        remarks:c.rm>-1?rw[c.rm].trim():''});
+      n++;
+    });
+    Store.save(S); renderBookingRows(); renderDashboard(); toast(n+' booking'+(n===1?'':'s')+' imported');
+  };
+  r.readAsText(file);
+}
+
+/* ============ Rates editor ============ */
+function renderRates(){
+  const bl=document.getElementById('blockList'); bl.innerHTML='';
+  S.rates.forEach(rt=>{
+    const d=document.createElement('div');d.className='raterow';
+    d.innerHTML='<input value="'+esc(rt.label)+'" data-f="label" placeholder="Label"><input type="number" min="1" value="'+rt.hours+'" data-f="hours" placeholder="Hours"><input type="number" min="0" value="'+rt.price+'" data-f="price" placeholder="₱ Price"><button class="del" aria-label="Delete">✕</button>';
+    d.querySelectorAll('input').forEach(inp=>inp.oninput=()=>{rt[inp.dataset.f]=inp.dataset.f==='label'?inp.value:+inp.value;});
+    d.querySelector('.del').onclick=()=>{S.rates=S.rates.filter(x=>x.id!==rt.id);renderRates();};
+    bl.appendChild(d);
+  });
+  document.getElementById('extRate').value=S.extRate;
+  document.getElementById('defDep').value=S.defDep;
+
+  const sl=document.getElementById('specialList'); sl.innerHTML='';
+  S.specials.forEach(sp=>{
+    const d=document.createElement('div');d.className='raterow raterow-sp';
+    d.innerHTML='<input value="'+esc(sp.label)+'" data-f="label" placeholder="Label">'
+      +'<select data-f="mode"><option value="range">Date range</option><option value="month">Month (yearly)</option></select>'
+      +'<span class="sp-when"></span>'
+      +'<select data-f="kind"><option value="flat">Flat ₱ surcharge</option><option value="percent">% of room rate</option></select>'
+      +'<input type="number" value="'+sp.amount+'" data-f="amount" placeholder="Amount">'
+      +'<button class="del" aria-label="Delete">✕</button>';
+    const when=d.querySelector('.sp-when');
+    function drawWhen(){
+      if(sp.mode==='month'){ when.innerHTML='<select data-f="month">'+MONTHS.map((m,i)=>'<option value="'+(i+1)+'"'+(sp.month===i+1?' selected':'')+'>'+m+'</option>').join('')+'</select>';
+        when.querySelector('select').onchange=e=>sp.month=+e.target.value;
+      } else { when.innerHTML='<div style="display:flex;gap:4px"><input type="date" value="'+(sp.start||'')+'" data-f="start" style="min-width:0"><input type="date" value="'+(sp.end||'')+'" data-f="end" style="min-width:0"></div>';
+        when.querySelectorAll('input').forEach(inp=>inp.onchange=()=>sp[inp.dataset.f]=inp.value);
+      }
+    }
+    d.querySelector('[data-f=mode]').value=sp.mode; d.querySelector('[data-f=kind]').value=sp.kind;
+    d.querySelector('[data-f=mode]').onchange=e=>{sp.mode=e.target.value;drawWhen();};
+    d.querySelector('[data-f=kind]').onchange=e=>sp.kind=e.target.value;
+    d.querySelector('[data-f=label]').oninput=e=>sp.label=e.target.value;
+    d.querySelector('[data-f=amount]').oninput=e=>sp.amount=+e.target.value;
+    d.querySelector('.del').onclick=()=>{S.specials=S.specials.filter(x=>x.id!==sp.id);renderRates();};
+    drawWhen(); sl.appendChild(d);
+  });
+
+  const cl=document.getElementById('chargeList'); cl.innerHTML='';
+  S.charges.forEach(cg=>{
+    const d=document.createElement('div');d.className='raterow';d.style.gridTemplateColumns='2fr 1fr auto';
+    d.innerHTML='<input value="'+esc(cg.label)+'" data-f="label" placeholder="Charge name"><input type="number" min="0" value="'+cg.amount+'" data-f="amount" placeholder="₱"><button class="del" aria-label="Delete">✕</button>';
+    d.querySelectorAll('input').forEach(inp=>inp.oninput=()=>{cg[inp.dataset.f]=inp.dataset.f==='label'?inp.value:+inp.value;});
+    d.querySelector('.del').onclick=()=>{S.charges=S.charges.filter(x=>x.id!==cg.id);renderRates();};
+    cl.appendChild(d);
+  });
+}
+
+/* ============ Rate engine ============ */
+function activeSpecials(ciD,coD){
+  const a=new Date(ciD+'T00:00'), b=new Date(coD+'T00:00');
+  return S.specials.filter(sp=>{
+    if(sp.mode==='month'){ for(let d=new Date(a);d<=b;d.setDate(d.getDate()+1)){ if(d.getMonth()+1===+sp.month)return true; } return false; }
+    if(!sp.start||!sp.end)return false;
+    return !(new Date(sp.end+'T00:00')<a || new Date(sp.start+'T00:00')>b);
+  });
+}
+function bestBreakdown(hours){
+  const blocks=S.rates.filter(r=>r.hours>0&&r.price>0).sort((a,b)=>b.hours-a.hours);
+  const ext=S.extRate||0;
+  if(!blocks.length) return {items:hours>0?[{label:'Extension Time: '+hours+' Hour(s) x ₱'+ext,amt:hours*ext}]:[],total:hours*ext};
+  const big=blocks[0];
+  const options=[];
+  const maxBig=Math.ceil(hours/big.hours);
+  for(let n=Math.floor(hours/big.hours); n<=maxBig; n++){
+    const rem=hours-n*big.hours;
+    if(rem<=0){ options.push({combo:[[big,n]],ext:0}); continue; }
+    // remainder covered by one smaller block
+    blocks.forEach(bk=>{ if(bk.hours>=rem) options.push({combo:n?[[big,n],[bk,1]]:[[bk,1]],ext:0}); });
+    // largest block below remainder + extension
+    blocks.forEach(bk=>{ if(bk.hours<rem) options.push({combo:n?[[big,n],[bk,1]]:[[bk,1]],ext:rem-bk.hours}); });
+    // pure extension for remainder
+    options.push({combo:n?[[big,n]]:[],ext:rem});
+  }
+  let best=null;
+  options.forEach(o=>{
+    const merged={}; o.combo.forEach(([bk,n])=>{merged[bk.id]=merged[bk.id]||{bk,n:0};merged[bk.id].n+=n;});
+    const items=[];
+    Object.values(merged).filter(x=>x.n>0).forEach(x=>{
+      for(let k=0;k<x.n;k++) items.push({label:'1 x '+x.bk.label+' ('+x.bk.hours+'hrs) = '+peso(x.bk.price),amt:x.bk.price});
+    });
+    let total=items.reduce((a,i)=>a+i.amt,0);
+    if(o.ext>0){ items.push({label:'Extension Time: '+o.ext+' Hour(s) x ₱'+ext+' = '+peso(o.ext*ext),amt:o.ext*ext}); total+=o.ext*ext; }
+    if(!best||total<best.total) best={items,total};
+  });
+  return best;
+}
+function computeRate(ciD,ciT,coD,coT,chargeIds){
+  const hours=Math.max(1,Math.round((dt(coD,coT)-dt(ciD,ciT))/36e5));
+  const bb=bestBreakdown(hours);
+  let roomTotal=bb.total; const lines=bb.items.slice();
+  activeSpecials(ciD,coD).forEach(sp=>{
+    const amt=sp.kind==='percent'?Math.round(bb.total*sp.amount/100):+sp.amount;
+    lines.push({label:sp.label+(sp.kind==='percent'?' ('+(sp.amount>0?'+':'')+sp.amount+'%)':'')+' = '+(amt<0?'−':'')+peso(Math.abs(amt)),amt});
+    roomTotal+=amt;
+  });
+  const extras=[]; let extraTotal=0;
+  (chargeIds||[]).forEach(id=>{const c=S.charges.find(x=>x.id===id); if(c){extras.push({label:c.label+' = '+peso(c.amount),amt:c.amount}); extraTotal+=c.amount;}});
+  return {hours,lines,roomTotal,extras,extraTotal,deposit:S.defDep,grand:roomTotal+extraTotal+S.defDep};
+}
+
+/* ============ Calculator + quote canvas ============ */
+let lastQuote=null;
+function renderCalcCharges(){
+  const depEl=document.getElementById('cc_dep');
+  if(depEl && depEl.value==='') depEl.value=S.defDep;
+  const w=document.getElementById('calcCharges');
+  w.innerHTML=S.charges.map(c=>'<label class="chip"><input type="checkbox" value="'+c.id+'"> '+esc(c.label)+' · '+peso(c.amount)+'</label>').join('')||'<span class="note">No additional charges set — add some in the Rates tab.</span>';
+}
+function runCalc(){
+  const ciD=document.getElementById('cc_ci_d').value, ciT=document.getElementById('cc_ci_t').value||'14:00';
+  const coD=document.getElementById('cc_co_d').value, coT=document.getElementById('cc_co_t').value||'12:00';
+  if(!ciD||!coD){toast('Choose check-in and check-out dates');return;}
+  if(dt(coD,coT)<=dt(ciD,ciT)){toast('Check-out must be after check-in');return;}
+  const ids=[...document.querySelectorAll('#calcCharges input:checked')].map(i=>i.value);
+  const guest=document.getElementById('cc_guest').value.trim()||'Sample Guest';
+  const q=computeRate(ciD,ciT,coD,coT,ids);
+  const depEl=document.getElementById('cc_dep');
+  if(depEl.value!==''){ q.deposit=Math.max(0,+depEl.value||0); q.grand=q.roomTotal+q.extraTotal+q.deposit; }
+  lastQuote={q,guest,ciD,ciT,coD,coT};
+  document.getElementById('calcNote').textContent='Total stay: '+q.hours+' hours · Room '+peso(q.roomTotal)+(q.extraTotal?' · Add-ons '+peso(q.extraTotal):'')+' · Deposit '+peso(q.deposit)+' → Grand total '+peso(q.grand);
+  drawQuote();
+}
+const logoImg=new Image(); logoImg.src="data:image/webp;base64,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";
+function drawQuote(){
+  const c=document.getElementById('quoteCanvas'), x=c.getContext('2d');
+  const W=720;
+  const lq=lastQuote;
+  const bodyLines = lq ? lq.q.lines.length + lq.q.extras.length : 3;
+  const H = 655 + bodyLines*34 + (lq&&lq.q.extras.length?76:0);
+  c.width=W; c.height=H;
+  // background paper
+  const g=x.createLinearGradient(0,0,0,H); g.addColorStop(0,'#FDFAF3'); g.addColorStop(1,'#F4EBD8');
+  x.fillStyle=g; x.fillRect(0,0,W,H);
+  // gold frame
+  x.strokeStyle='#C09A4D'; x.lineWidth=3; x.strokeRect(14,14,W-28,H-28);
+  x.strokeStyle='#E3CFA0'; x.lineWidth=1; x.strokeRect(22,22,W-44,H-44);
+  // logo
+  if(logoImg.complete&&logoImg.naturalWidth){ x.save(); x.beginPath(); x.arc(W/2,96,52,0,7); x.clip(); x.drawImage(logoImg,W/2-52,44,104,104); x.restore(); x.strokeStyle='#C09A4D'; x.lineWidth=2; x.beginPath(); x.arc(W/2,96,52,0,7); x.stroke(); }
+  x.textAlign='center';
+  x.fillStyle='#2E2119'; x.font='600 30px "Playfair Display", Georgia, serif';
+  x.fillText('HAVEN PAD RATE BREAKDOWN', W/2, 192);
+  x.fillStyle='#8A6B23'; x.font='700 13px "Nunito Sans", sans-serif';
+  x.fillText('H A V E N   P A D   B Y   1 2 2 8', W/2, 216);
+  x.fillStyle='#6B4A2F'; x.font='600 16px "Nunito Sans", sans-serif';
+  if(lq){
+    x.fillText('Prepared for '+lq.guest, W/2, 252);
+    x.fillText(fmtDT(lq.ciD,lq.ciT)+'  →  '+fmtDT(lq.coD,lq.coT), W/2, 276);
+    const nts=Math.max(0,Math.round((new Date(lq.coD+'T00:00')-new Date(lq.ciD+'T00:00'))/864e5));
+    x.fillStyle='#C96F4A'; x.font='800 15px "Nunito Sans", sans-serif';
+    x.fillText('⏱ Total Stay: '+lq.q.hours+' Hours  ·  '+(nts+1)+' Day(s)  ·  '+nts+' Night(s)', W/2, 302);
+    if(lq.q.hours>=48){ x.fillStyle='#8A7763'; x.font='600 12px "Nunito Sans", sans-serif';
+      x.fillText('≈ '+peso(Math.round(lq.q.roomTotal/Math.max(1,(nts+1))))+' per day', W/2, 320); }
+  } else {
+    x.fillText('Fill in the inquiry and press “Calculate rate”', W/2, 262);
+  }
+  // divider
+  x.strokeStyle='#C09A4D'; x.lineWidth=1;
+  x.beginPath(); x.moveTo(70,324); x.lineTo(W-70,324); x.stroke();
+  let y=356;
+  x.textAlign='left';
+  x.fillStyle='#8A6B23'; x.font='800 12px "Nunito Sans", sans-serif';
+  x.fillText('RATE BREAKDOWN APPLIED', 70, y); y+=28;
+  x.font='600 16px "Nunito Sans", sans-serif'; x.fillStyle='#31261D';
+  (lq?lq.q.lines:[{label:'—'}]).forEach(li=>{ x.fillText('•  '+li.label, 82, y); y+=34; });
+  if(lq&&lq.q.extras.length){
+    x.fillStyle='#8A6B23'; x.font='800 12px "Nunito Sans", sans-serif';
+    x.fillText('ADDITIONAL CHARGES', 70, y+6); y+=34;
+    x.font='600 16px "Nunito Sans", sans-serif'; x.fillStyle='#31261D';
+    lq.q.extras.forEach(li=>{ x.fillText('•  '+li.label, 82, y); y+=34; });
+  }
+  y+=4;
+  x.strokeStyle='#E3CFA0'; x.beginPath(); x.moveTo(70,y); x.lineTo(W-70,y); x.stroke(); y+=34;
+  x.font='700 17px "Nunito Sans", sans-serif'; x.fillStyle='#6B4A2F';
+  x.fillText('Room Rate Total', 70, y); x.textAlign='right'; x.fillText(peso(lq?lq.q.roomTotal:0), W-70, y); y+=32;
+  if(lq&&lq.q.extraTotal){ x.textAlign='left'; x.fillText('Additional Charges Total', 70, y); x.textAlign='right'; x.fillText(peso(lq.q.extraTotal), W-70, y); y+=32; }
+  x.textAlign='left'; x.fillText('Security Deposit (refundable)', 70, y); x.textAlign='right'; x.fillText(peso(lq?lq.q.deposit:S.defDep), W-70, y); y+=44;
+  // grand total band
+  x.fillStyle='#2E2119'; x.fillRect(56,y-30,W-112,52);
+  x.fillStyle='#E3CFA0'; x.textAlign='left'; x.font='800 18px "Nunito Sans", sans-serif';
+  x.fillText('GRAND TOTAL', 74, y+4);
+  x.textAlign='right'; x.fillStyle='#E8B872'; x.font='700 26px "Playfair Display", Georgia, serif';
+  x.fillText(peso(lq?lq.q.grand:0), W-74, y+6); y+=58;
+  x.textAlign='center'; x.fillStyle='#8A7763'; x.font='italic 600 15px Georgia, serif';
+  x.fillText('Thank you for choosing Haven Pad! 🏡✨  Your Cozy Stay, Your Home Away.', W/2, y+8);
+}
+function downloadQuote(type){
+  if(!lastQuote){ runCalc(); if(!lastQuote) return; }
+  const c=document.getElementById('quoteCanvas');
+  const a=document.createElement('a');
+  if(type==='jpg'){
+    const tmp=document.createElement('canvas'); tmp.width=c.width; tmp.height=c.height;
+    const t=tmp.getContext('2d'); t.fillStyle='#FDFAF3'; t.fillRect(0,0,tmp.width,tmp.height); t.drawImage(c,0,0);
+    a.href=tmp.toDataURL('image/jpeg',0.92); a.download='HavenPad_Quote_'+(lastQuote.guest.replace(/\s+/g,'_'))+'.jpg';
+  } else { a.href=c.toDataURL('image/png'); a.download='HavenPad_Quote_'+(lastQuote.guest.replace(/\s+/g,'_'))+'.png'; }
+  a.click(); toast(type==='jpg'?'JPEG downloaded':'PNG downloaded');
+}
+
+/* ============ Calendar ============ */
+let calY=new Date().getFullYear(), calM=new Date().getMonth();
+function renderCalendar(){
+  document.getElementById('calTitle').textContent=MONTHS[calM]+' '+calY;
+  const grid=document.getElementById('calGrid'); grid.innerHTML='';
+  ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].forEach(d=>{const e=document.createElement('div');e.className='dow';e.textContent=d;grid.appendChild(e);});
+  const first=new Date(calY,calM,1), start=new Date(first); start.setDate(1-first.getDay());
+  const rc=repeatCounts(); const tISO=todayStr();
+  const monthGuests={};
+  for(let i=0;i<42;i++){
+    const d=new Date(start); d.setDate(start.getDate()+i);
+    const iso=isoLocal(d);
+    const cell=document.createElement('div'); cell.className='day'+(d.getMonth()!==calM?' out':'')+(iso===tISO?' today':'');
+    cell.innerHTML='<div class="n">'+d.getDate()+'</div>';
+    const dayBk=S.bookings.filter(b=>!isCancelled(b)&&b.ciD<=iso&&iso<=b.coD);
+    dayBk.slice(0,3).forEach(b=>{
+      const col=guestColor(b.guest); monthGuests[b.guest]=col;
+      const isCi=b.ciD===iso, isCo=b.coD===iso;
+      const p=document.createElement('div'); p.className='pill'; p.style.background=col;
+      p.innerHTML=(rc[normName(b.guest)]>1?'★ ':'')+esc(b.guest.split(' ')[0])+(isCi?' <span class="st">IN '+time12_(b.ciT)+'</span>':isCo?' <span class="st">OUT '+time12_(b.coT)+'</span>':'');
+      cell.appendChild(p);
+    });
+    if(dayBk.length>3){const m=document.createElement('div');m.className='pill';m.style.background='#8A7763';m.textContent='+'+(dayBk.length-3)+' more';cell.appendChild(m);}
+    blocksForDay(iso).slice(0,2).forEach(k=>{
+      const isS=k.startD===iso, isE=k.endD===iso;
+      const bp=document.createElement('div'); bp.className='pill';
+      bp.style.cssText='background:repeating-linear-gradient(45deg,#4A3526,#4A3526 6px,#5C4432 6px,#5C4432 12px)';
+      bp.innerHTML='🔒 '+esc(k.label)+(isS?' <span class="st">FROM '+time12_(k.startT)+'</span>':isE?' <span class="st">UNTIL '+time12_(k.endT)+'</span>':'');
+      cell.appendChild(bp);
+    });
+    if(!dayBk.length && !blocksForDay(iso).length && d.getMonth()===calM && iso<=tISO){const hb=document.createElement('div');hb.style.cssText='text-align:center;opacity:.32;font-size:1.05rem;margin-top:16px';hb.textContent='💔';cell.appendChild(hb);}
+    cell.onclick=()=>openDay(iso,dayBk);
+    grid.appendChild(cell);
+  }
+  document.getElementById('calLegend').innerHTML='<span class="it"><b style="color:#8A6B23">★</b>&nbsp;Repeated guest</span><span class="it">💔&nbsp;No guest booked</span><span class="it">🔒&nbsp;Reserved (personal / maintenance)</span>';
+}
+function blocksForDay(iso){ return (S.blocks||[]).filter(k=>k.startD<=iso&&iso<=k.endD); }
+function saveBlockFromModal(){
+  const sel=document.getElementById('blk_type').value;
+  const note=document.getElementById('blk_note').value.trim();
+  const label= sel==='Other' ? (note||'Reserved') : sel + (note?(' — '+note):'');
+  const sd=document.getElementById('blk_sd').value, ed=document.getElementById('blk_ed').value;
+  const st=document.getElementById('blk_st').value||'14:00', et=document.getElementById('blk_et').value||'12:00';
+  if(!sd||!ed){ toast('Choose start and end dates'); return; }
+  if(ed<sd){ toast('End date must not be before start date'); return; }
+  if(!S.blocks)S.blocks=[];
+  S.blocks.push({id:uid(),label,startD:sd,startT:st,endD:ed,endT:et});
+  Store.save(S); renderCalendar();
+  document.getElementById('dayOverlay').classList.remove('show');
+  toast('Dates reserved — '+label);
+}
+function deleteBlock(id){
+  const k=(S.blocks||[]).find(x=>x.id===id); if(!k)return;
+  if(!confirm('Remove the reserved dates "'+k.label+'" ('+fmtD(k.startD)+' – '+fmtD(k.endD)+')?'))return;
+  S.blocks=S.blocks.filter(x=>x.id!==id); Store.save(S); renderCalendar();
+  document.getElementById('dayOverlay').classList.remove('show');
+  toast('Reservation removed');
+}
+function openDay(iso,bks){
+  const o=document.getElementById('dayOverlay');
+  const blocks=blocksForDay(iso);
+  document.getElementById('dayModalTitle').textContent=new Date(iso+'T00:00').toDateString();
+  let html='';
+  if(bks.length) html+=bks.map(b=>
+    '<div style="border:1px solid var(--line);border-left:5px solid '+guestColor(b.guest)+';border-radius:12px;padding:12px;margin-bottom:10px">'
+    +'<b>'+esc(b.guest)+'</b>'+(repeatCounts()[normName(b.guest)]>1?'<span class="repeat">★ Repeat</span>':'')
+    +(b.other?' <span style="color:var(--muted-text);font-size:.8rem">w/ '+esc(b.other)+'</span>':'')
+    +'<div style="font-size:.78rem;color:var(--muted-text);margin-top:4px">'+esc(b.bookingNo)+' · '+b.pax+' pax · '+esc(b.contact)+'</div>'
+    +'<div style="font-size:.82rem;margin-top:4px">'+fmtDT(b.ciD,b.ciT)+' → '+fmtDT(b.coD,b.coT)+' · <b>'+peso(b.rate||0)+'</b> · '+payBadge(b.pay)+'</div>'
+    +'<div class="btnrow" style="margin-top:8px"><button class="btn ghost sm" onclick="document.getElementById(\'dayOverlay\').classList.remove(\'show\');editBooking(\''+b.id+'\')">Open booking</button></div></div>'
+  ).join('');
+  if(blocks.length) html+=blocks.map(k=>
+    '<div style="border:1px solid var(--line);border-left:5px solid #4A3526;border-radius:12px;padding:12px;margin-bottom:10px;background:#F3EDE0">'
+    +'<b>🔒 '+esc(k.label)+'</b>'
+    +'<div style="font-size:.82rem;color:var(--muted-text);margin-top:4px">'+fmtD(k.startD)+' · '+time12_(k.startT)+'  →  '+fmtD(k.endD)+' · '+time12_(k.endT)+'</div>'
+    +'<div class="btnrow" style="margin-top:8px"><button class="btn danger sm" onclick="deleteBlock(\''+k.id+'\')">Remove reservation</button></div></div>'
+  ).join('');
+  if(!bks.length&&!blocks.length) html+='<div class="empty">No stays on this day. The pad is free!</div>';
+  html+='<div class="divider"></div>'
+    +'<h3 style="font-family:\'Playfair Display\',serif;font-size:1.05rem;margin-bottom:10px">🔒 Reserve this date for yourself</h3>'
+    +'<div class="frm" style="grid-template-columns:repeat(2,1fr)">'
+    +'<div class="f"><label>Reason</label><select id="blk_type"><option>Personal Use</option><option>Maintenance</option><option>Other</option></select></div>'
+    +'<div class="f"><label>Note (optional)</label><input id="blk_note" placeholder="e.g. aircon cleaning"></div>'
+    +'<div class="f"><label>From date</label><input type="date" id="blk_sd" value="'+iso+'"></div>'
+    +'<div class="f"><label>From time</label><input type="time" id="blk_st" value="14:00"></div>'
+    +'<div class="f"><label>Until date</label><input type="date" id="blk_ed" value="'+iso+'"></div>'
+    +'<div class="f"><label>Until time</label><input type="time" id="blk_et" value="12:00"></div>'
+    +'</div>'
+    +'<div class="btnrow"><button class="btn" onclick="saveBlockFromModal()">Reserve dates</button></div>';
+  document.getElementById('dayModalBody').innerHTML=html;
+  o.classList.add('show');
+}
+
+/* ============ Guest voucher ============ */
+let vchBooking=null;
+function openVoucher(id){
+  const b=S.bookings.find(x=>x.id===id); if(!b)return;
+  vchBooking=b;
+  document.getElementById('vchTitle').textContent='Guest voucher — '+b.bookingNo;
+  drawVoucher(b);
+  document.getElementById('vchOverlay').classList.add('show');
+}
+function drawVoucher(b){
+  const c=document.getElementById('voucherCanvas');
+  const hours=hoursBetween(b);
+  const bb=bestBreakdown(hours);
+  let lines;
+  const diff=(+b.rate||0)-bb.total;
+  if(bb.items.length && Math.abs(diff)<1){ lines=bb.items; }
+  else if(bb.items.length && (+b.rate||0)>0){
+    lines=bb.items.slice();
+    if(diff>=1) lines.push({label:'Rate Adjustment = '+peso(diff)});
+    else if(diff<=-1) lines.push({label:'Discount = −'+peso(-diff)});
+  }
+  else { lines=[{label:'Room Rate = '+peso(b.rate||0)}]; }
+  c.width=720; c.height=100;
+  const endY=paintVoucher_(c.getContext('2d'),b,lines,hours,720,5000);
+  c.height=endY+36;
+  paintVoucher_(c.getContext('2d'),b,lines,hours,720,c.height);
+}
+function wrap_(x,text,px,py,maxW,lh){
+  const words=String(text).split(' '); let line=''; let y=py;
+  for(const w of words){
+    const t=line?line+' '+w:w;
+    if(x.measureText(t).width>maxW && line){ x.fillText(line,px,y); y+=lh; line=w; }
+    else line=t;
+  }
+  if(line){ x.fillText(line,px,y); y+=lh; }
+  return y;
+}
+const VCH_TERMS=[
+  'Full Payment must be settled upon arrival and thru Wired Transfer Only.',
+  "Please prepare 1 valid Gov't ID PER GUEST for building entry verification.",
+  'Security Deposit is 100% refundable upon check-out, as long as there are no damages to the unit/items and no house rule violations. Security Deposit serves as booking reservation as well.',
+  'Cancellation Policy: strictly not allowed, except for emergencies caused by accident or natural disasters, where a full refund is applied. If the guest cannot present a valid ID at the lobby, a 50% refund will be applied.'
+];
+const VCH_CHANNELS=[
+  ['GCash','John Dale Orcullo','0966 9927 539'],
+  ['Bank / GoTyme','Aloha Faye Bermejo','015073920189'],
+  ['MariBank','Aloha Faye Bermejo','16292477207'],
+  ['Maya','Aloha Faye Bermejo','0963 356 3677']
+];
+function paintVoucher_(x,b,lines,hours,W,H){
+  const g=x.createLinearGradient(0,0,0,H); g.addColorStop(0,'#FDFAF3'); g.addColorStop(1,'#F4EBD8');
+  x.fillStyle=g; x.fillRect(0,0,W,H);
+  x.strokeStyle='#C09A4D'; x.lineWidth=3; x.strokeRect(14,14,W-28,H-28);
+  x.strokeStyle='#E3CFA0'; x.lineWidth=1; x.strokeRect(22,22,W-44,H-44);
+  if(logoImg.complete&&logoImg.naturalWidth){ x.save(); x.beginPath(); x.arc(W/2,88,46,0,7); x.clip(); x.drawImage(logoImg,W/2-46,42,92,92); x.restore(); x.strokeStyle='#C09A4D'; x.lineWidth=2; x.beginPath(); x.arc(W/2,88,46,0,7); x.stroke(); }
+  x.textAlign='center';
+  x.fillStyle='#2E2119'; x.font='600 30px "Playfair Display", Georgia, serif';
+  x.fillText('GUEST VOUCHER', W/2, 172);
+  x.fillStyle='#8A6B23'; x.font='700 13px "Nunito Sans", sans-serif';
+  x.fillText('H A V E N   P A D   B Y   1 2 2 8', W/2, 196);
+  x.fillStyle='#2E2119'; const bnW=x.measureText(b.bookingNo).width+70;
+  roundRect_(x,W/2-bnW/2,212,bnW,32,16); x.fill();
+  x.fillStyle='#E8B872'; x.font='800 15px "Nunito Sans", sans-serif';
+  x.fillText(b.bookingNo, W/2, 233);
+  x.fillStyle='#31261D'; x.font='700 24px "Playfair Display", Georgia, serif';
+  x.fillText(b.guest||'', W/2, 284);
+  x.fillStyle='#6B4A2F'; x.font='600 15px "Nunito Sans", sans-serif';
+  const sub=[b.other?('with '+b.other):'', (b.pax||1)+' pax'].filter(Boolean).join('  ·  ');
+  x.fillText(sub, W/2, 308);
+  const boxY=336, boxH=86, boxW=(W-140-16)/2;
+  [['CHECK-IN',fmtD(b.ciD),time12_(b.ciT),70],['CHECK-OUT',fmtD(b.coD),time12_(b.coT),70+boxW+16]].forEach(([lbl,d,t,bx])=>{
+    x.fillStyle='#FFFFFF'; x.strokeStyle='#E3CFA0'; x.lineWidth=1.5;
+    roundRect_(x,bx,boxY,boxW,boxH,12); x.fill(); x.stroke();
+    x.fillStyle='#8A6B23'; x.font='800 11px "Nunito Sans", sans-serif'; x.textAlign='center';
+    x.fillText(lbl, bx+boxW/2, boxY+24);
+    x.fillStyle='#2E2119'; x.font='700 19px "Nunito Sans", sans-serif';
+    x.fillText(d, bx+boxW/2, boxY+50);
+    x.fillStyle='#6B4A2F'; x.font='600 14px "Nunito Sans", sans-serif';
+    x.fillText(t, bx+boxW/2, boxY+72);
+  });
+  x.fillStyle='#C96F4A'; x.font='800 14px "Nunito Sans", sans-serif';
+  x.fillText('⏱ '+hours+' Hours  ·  '+daysBetween(b)+' Day(s)  ·  '+nightsBetween(b)+' Night(s)', W/2, boxY+boxH+30);
+  let y=boxY+boxH+58;
+  x.strokeStyle='#C09A4D'; x.lineWidth=1; x.beginPath(); x.moveTo(70,y); x.lineTo(W-70,y); x.stroke(); y+=30;
+  x.textAlign='left'; x.fillStyle='#8A6B23'; x.font='800 12px "Nunito Sans", sans-serif';
+  x.fillText('RATE BREAKDOWN', 70, y); y+=28;
+  x.font='600 15px "Nunito Sans", sans-serif'; x.fillStyle='#31261D';
+  lines.forEach(li=>{ x.fillText('•  '+li.label, 82, y); y+=32; });
+  x.strokeStyle='#E3CFA0'; x.beginPath(); x.moveTo(70,y); x.lineTo(W-70,y); x.stroke(); y+=30;
+  x.font='700 16px "Nunito Sans", sans-serif'; x.fillStyle='#6B4A2F';
+  x.fillText('Room Rate Total', 70, y); x.textAlign='right'; x.fillText(peso(b.rate||0), W-70, y); y+=28;
+  x.textAlign='left'; x.fillText('Security Deposit (refundable)', 70, y); x.textAlign='right'; x.fillText(peso(b.dep||0), W-70, y); y+=40;
+  x.fillStyle='#2E2119'; x.fillRect(56,y-28,W-112,48);
+  x.fillStyle='#E3CFA0'; x.textAlign='left'; x.font='800 17px "Nunito Sans", sans-serif';
+  x.fillText('GRAND TOTAL', 74, y+4);
+  x.textAlign='right'; x.fillStyle='#E8B872'; x.font='700 24px "Playfair Display", Georgia, serif';
+  x.fillText(peso((+b.rate||0)+(+b.dep||0)), W-74, y+5); y+=44;
+  x.textAlign='center'; x.fillStyle='#5E8A5A'; x.font='800 13px "Nunito Sans", sans-serif';
+  x.fillText((b.pay?('Payment: '+b.pay):'')+(b.depStat?('   ·   Deposit: '+b.depStat):''), W/2, y); y+=24;
+  if(b.remarks){ x.fillStyle='#8A7763'; x.font='600 13px "Nunito Sans", sans-serif'; x.fillText('Note: '+b.remarks.slice(0,80), W/2, y); y+=26; }
+  // ---- Important reminders (permanent) ----
+  y+=8;
+  x.strokeStyle='#C09A4D'; x.beginPath(); x.moveTo(70,y); x.lineTo(W-70,y); x.stroke(); y+=28;
+  x.textAlign='left'; x.fillStyle='#8A6B23'; x.font='800 12px "Nunito Sans", sans-serif';
+  x.fillText('IMPORTANT REMINDERS', 70, y); y+=24;
+  x.fillStyle='#4A3526'; x.font='600 12.5px "Nunito Sans", sans-serif';
+  VCH_TERMS.forEach(t=>{
+    x.fillText('•',74,y);
+    y=wrap_(x,t,90,y,W-90-70,19)+8;
+  });
+  // ---- Payment channels ----
+  y+=6;
+  x.fillStyle='#8A6B23'; x.font='800 12px "Nunito Sans", sans-serif';
+  x.fillText('PAYMENT CHANNELS', 70, y); y+=24;
+  VCH_CHANNELS.forEach(([ch,name,num])=>{
+    x.fillStyle='#2E2119'; x.font='800 13px "Nunito Sans", sans-serif';
+    x.fillText(ch, 90, y);
+    x.fillStyle='#4A3526'; x.font='600 13px "Nunito Sans", sans-serif';
+    x.fillText(name+'  ·  '+num, 230, y);
+    y+=24;
+  });
+  // ---- Closing ----
+  y+=12;
+  x.textAlign='center'; x.fillStyle='#6B4A2F'; x.font='italic 700 13.5px Georgia, serif';
+  x.fillText('We appreciate your cooperation in keeping Haven Pad clean and cozy!', W/2, y); y+=24;
+  x.fillStyle='#8A7763'; x.font='italic 600 14px Georgia, serif';
+  x.fillText('Please present this voucher upon check-in.', W/2, y); y+=22;
+  x.fillText('Thank you for choosing Haven Pad! 🏡✨', W/2, y);
+  return y;
+}
+function roundRect_(x,px,py,w,h,r){ x.beginPath(); x.moveTo(px+r,py); x.arcTo(px+w,py,px+w,py+h,r); x.arcTo(px+w,py+h,px,py+h,r); x.arcTo(px,py+h,px,py,r); x.arcTo(px,py,px+w,py,r); x.closePath(); }
+function time12_(t){ if(!t)return''; const [h,m]=t.split(':').map(Number); const ap=h>=12?'PM':'AM'; return ((h%12)||12)+':'+String(m).padStart(2,'0')+' '+ap; }
+function canvasToPdfBlob_(canvas){
+  const bin=atob(canvas.toDataURL('image/jpeg',0.92).split(',')[1]);
+  const img=new Uint8Array(bin.length);
+  for(let i=0;i<bin.length;i++)img[i]=bin.charCodeAt(i);
+  const W=+(canvas.width*0.75).toFixed(2), H=+(canvas.height*0.75).toFixed(2);
+  const enc=t=>new TextEncoder().encode(t);
+  const content='q '+W+' 0 0 '+H+' 0 0 cm /Im0 Do Q';
+  const parts=[]; const off=[]; let pos=0;
+  const push=u=>{parts.push(u);pos+=u.length;};
+  push(enc('%PDF-1.4\n'));
+  const obj=(n,body)=>{off[n]=pos;push(enc(n+' 0 obj\n'+body+'\nendobj\n'));};
+  obj(1,'<< /Type /Catalog /Pages 2 0 R >>');
+  obj(2,'<< /Type /Pages /Kids [3 0 R] /Count 1 >>');
+  obj(3,'<< /Type /Page /Parent 2 0 R /MediaBox [0 0 '+W+' '+H+'] /Contents 4 0 R /Resources << /XObject << /Im0 5 0 R >> /ProcSet [/PDF /ImageC] >> >>');
+  obj(4,'<< /Length '+content.length+' >>\nstream\n'+content+'\nendstream');
+  off[5]=pos;
+  push(enc('5 0 obj\n<< /Type /XObject /Subtype /Image /Width '+canvas.width+' /Height '+canvas.height+' /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length '+img.length+' >>\nstream\n'));
+  push(img);
+  push(enc('\nendstream\nendobj\n'));
+  const xr=pos;
+  let xref='xref\n0 6\n0000000000 65535 f \n';
+  for(let i=1;i<=5;i++) xref+=String(off[i]).padStart(10,'0')+' 00000 n \n';
+  push(enc(xref+'trailer\n<< /Size 6 /Root 1 0 R >>\nstartxref\n'+xr+'\n%%EOF'));
+  return new Blob(parts,{type:'application/pdf'});
+}
+function downloadVoucher(kind){
+  if(!vchBooking)return;
+  const c=document.getElementById('voucherCanvas');
+  const name=(vchBooking.bookingNo+'_'+(vchBooking.guest||'Guest')).trim().replace(/[^\w\-]+/g,'_');
+  const a=document.createElement('a');
+  if(kind==='pdf'){ a.href=URL.createObjectURL(canvasToPdfBlob_(c)); a.download=name+'.pdf'; }
+  else if(kind==='jpg'){
+    const t=document.createElement('canvas'); t.width=c.width; t.height=c.height;
+    const tx=t.getContext('2d'); tx.fillStyle='#FDFAF3'; tx.fillRect(0,0,t.width,t.height); tx.drawImage(c,0,0);
+    a.href=t.toDataURL('image/jpeg',0.92); a.download=name+'.jpg';
+  } else { a.href=c.toDataURL('image/png'); a.download=name+'.png'; }
+  a.click(); toast(kind.toUpperCase()+' downloaded');
+}
+
+/* ============ Google Sheet sync ============ */
+function openSync(){
+  document.getElementById('syncUrl').value=S.syncUrl||'';
+  document.getElementById('syncKey').value=S.syncKey||'';
+  document.getElementById('syncAuto').checked=!!S.syncAuto;
+  document.getElementById('syncStatus').textContent=S.lastSync?('Last pull: '+S.lastSync):'';
+  document.getElementById('syncOverlay').classList.add('show');
+}
+function saveSync(){
+  S.syncUrl=document.getElementById('syncUrl').value.trim();
+  S.syncKey=document.getElementById('syncKey').value.trim();
+  S.syncAuto=document.getElementById('syncAuto').checked;
+  Store.save(S); toast('Sync settings saved');
+}
+function syncUrlWithKey_(){
+  const u=S.syncUrl||'';
+  const k=(S.syncKey||'').trim();
+  if(!u||!k) return u;
+  return u+(u.includes('?')?'&':'?')+'key='+encodeURIComponent(k);
+}
+function jsonp_(url){
+  return new Promise((resolve,reject)=>{
+    const cb='hp_cb_'+Math.random().toString(36).slice(2);
+    const s=document.createElement('script');
+    const t=setTimeout(()=>{cleanup();reject(new Error('timed out'));},25000);
+    function cleanup(){clearTimeout(t);try{delete window[cb];}catch(e){}s.remove();}
+    window[cb]=d=>{cleanup();resolve(d);};
+    s.onerror=()=>{cleanup();reject(new Error('could not reach the script URL'));};
+    s.src=url+(url.includes('?')?'&':'?')+'callback='+cb;
+    document.head.appendChild(s);
+  });
+}
+async function fetchSheet_(){
+  const u=syncUrlWithKey_();
+  try{
+    const res=await fetch(u,{redirect:'follow'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    return await res.json();
+  }catch(e){
+    // fallback: JSONP via <script> tag — immune to CORS / file:// blocking
+    return await jsonp_(u);
+  }
+}
+function askForKey_(){
+  const k=prompt('This tracker is protected.\nEnter the Haven Pad access key:');
+  if(k&&k.trim()){
+    S.syncKey=k.trim(); Store.save(S);
+    const el=document.getElementById('syncKey'); if(el)el.value=S.syncKey;
+    return true;
+  }
+  return false;
+}
+async function pullSheet(silent,retried){
+  saveSyncQuiet_();
+  if(!S.syncUrl){ if(!silent)toast('Paste your Apps Script /exec URL first'); return; }
+  try{
+    if(!silent)toast('Pulling from Google Sheet…');
+    const j=await fetchSheet_();
+    if(!j.ok) throw new Error(j.error||'script error');
+    S.bookings=(j.bookings||[]).map(b=>Object.assign({id:uid()},b,{bookingNo:b.bookingNo||genBookingNo(b.guest,b.ciD)}));
+    S.lastSync=new Date().toLocaleString();
+    Store.save(S); renderBookingRows(); renderDashboard();
+    if(document.getElementById('tab-calendar').classList.contains('show'))renderCalendar();
+    document.getElementById('syncStatus').textContent='Pulled '+S.bookings.length+' bookings from "'+(j.sheet||'sheet')+'" · '+S.lastSync;
+    if(!silent)toast('Pulled '+S.bookings.length+' bookings');
+  }catch(e){
+    if(/unauthorized/i.test(String(e.message)) && !retried){
+      if(askForKey_()) return pullSheet(silent,true);
+      document.getElementById('syncStatus').textContent='Pull blocked: an access key is required. Open ⟳ Sheet sync and enter it.';
+      if(!silent)toast('Access key required');
+      return;
+    }
+    document.getElementById('syncStatus').textContent='Pull failed: '+e.message+'. Fix: Apps Script → Deploy → Manage deployments → Edit → set "Who has access" to Anyone (not "Anyone with Google account") → New version → Deploy. Test the /exec URL in an Incognito window — it must show {"ok":true…} without asking you to sign in.';
+    if(!silent)toast('Pull failed — see sync panel');
+  }
+}
+async function pushSheet(retried){
+  saveSyncQuiet_();
+  if(!S.syncUrl){ toast('Paste your Apps Script /exec URL first'); return; }
+  try{
+    toast('Pushing to Google Sheet…');
+    let j=null;
+    try{
+      const res=await fetch(syncUrlWithKey_(),{method:'POST',redirect:'follow',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({bookings:S.bookings})});
+      j=await res.json();
+    }catch(err){
+      // fallback: fire-and-forget delivery (response unreadable but data arrives)
+      await fetch(syncUrlWithKey_(),{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({bookings:S.bookings})});
+      document.getElementById('syncStatus').textContent='Pushed (delivery could not be confirmed from this browser) — open your Google Sheet to verify the rows, then Pull.';
+      toast('Pushed — verify in your sheet');
+      return;
+    }
+    if(!j.ok){
+      if(/unauthorized/i.test(String(j.error))&&!retried&&askForKey_()) return pushSheet(true);
+      throw new Error(j.error||'script error');
+    }
+    document.getElementById('syncStatus').textContent='Pushed: '+j.added+' rows added, '+j.updated+' updated · '+new Date().toLocaleString();
+    toast('Sheet updated — '+j.added+' added, '+j.updated+' updated');
+  }catch(e){
+    document.getElementById('syncStatus').textContent='Push failed: '+e.message;
+    toast('Push failed — see sync panel');
+  }
+}
+function saveSyncQuiet_(){
+  const el=document.getElementById('syncUrl');
+  if(!el) return;
+  const v=el.value.trim();
+  const panelOpen=document.getElementById('syncOverlay').classList.contains('show');
+  if(v==='' && !panelOpen) return; // untouched hidden field must not erase the saved URL
+  if(v!==(S.syncUrl||'')){ S.syncUrl=v; Store.save(S); }
+}
+
+/* ============ Init ============ */
+async function init(){
+  S=await Store.load();
+  if(!S){ S=seed(); Store.save(S); }
+  if(!S.blocks) S.blocks=[];
+  if(DEFAULT_SYNC_URL && DEFAULT_SYNC_URL.indexOf('http')===0 && !S.syncUrl){
+    S.syncUrl=DEFAULT_SYNC_URL;
+    if(S.syncAuto===undefined) S.syncAuto=true;
+    Store.save(S);
+  }
+  if(DEFAULT_SYNC_KEY && !S.syncKey){ S.syncKey=DEFAULT_SYNC_KEY; Store.save(S); }
+  const _su=document.getElementById('syncUrl'); if(_su) _su.value=S.syncUrl||'';
+  const _sk=document.getElementById('syncKey'); if(_sk) _sk.value=S.syncKey||'';
+  buildNav();
+  showTab('dashboard');
+  renderBookingRows(); clearBookingForm(); drawQuote();
+  const now=new Date();
+  document.getElementById('hdrDate').textContent=now.toDateString();
+  const t=todayStr(); ['cc_ci_d','cc_co_d'].forEach((id,i)=>{const d=new Date();d.setDate(d.getDate()+i);document.getElementById(id).value=isoLocal(d);});
+
+  document.getElementById('chartPrevYr').onclick=()=>{chartYear--;renderDashboard();};
+  document.getElementById('chartNextYr').onclick=()=>{chartYear++;renderDashboard();};
+  document.getElementById('fltQ').oninput=renderBookingRows;
+  document.getElementById('fltMonth').onchange=renderBookingRows;
+  document.getElementById('fltYear').onchange=renderBookingRows;
+  document.getElementById('fltClear').onclick=()=>{document.getElementById('fltQ').value='';document.getElementById('fltMonth').value='';document.getElementById('fltYear').value='';renderBookingRows();};
+  document.getElementById('btnExportCsv').onclick=exportCsv;
+  document.getElementById('csvFile').onchange=e=>{if(e.target.files[0])importCsv(e.target.files[0]); e.target.value='';};
+  document.getElementById('bkSave').onclick=saveBooking;
+  document.getElementById('bkClear').onclick=clearBookingForm;
+  document.getElementById('bkAutoRate').onclick=()=>{
+    const f=readBookingForm();
+    if(!f.ciD||!f.coD){toast('Set check-in and check-out first');return;}
+    const r=computeRate(f.ciD,f.ciT,f.coD,f.coT,[]);
+    document.getElementById('bk_rate').value=r.roomTotal;
+    if(!document.getElementById('bk_dep').value)document.getElementById('bk_dep').value=r.deposit;
+    document.getElementById('bkAutoNote').textContent=r.hours+' hrs → '+peso(r.roomTotal)+' (+ '+peso(r.deposit)+' deposit)';
+  };
+  document.getElementById('addBlock').onclick=()=>{S.rates.push({id:uid(),label:'New Block',hours:8,price:1000});renderRates();};
+  document.getElementById('addSpecial').onclick=()=>{S.specials.push({id:uid(),label:'New special rate',mode:'range',month:1,start:'',end:'',kind:'flat',amount:0});renderRates();};
+  document.getElementById('addCharge').onclick=()=>{S.charges.push({id:uid(),label:'New charge',amount:0});renderRates();};
+  document.getElementById('saveRates').onclick=()=>{
+    S.extRate=+document.getElementById('extRate').value||0;
+    S.defDep=+document.getElementById('defDep').value||0;
+    Store.save(S);
+    document.getElementById('ratesSavedNote').textContent='Saved '+new Date().toLocaleTimeString();
+    toast('Rates saved');
+  };
+  document.getElementById('calcBtn').onclick=runCalc;
+  document.getElementById('dlPng').onclick=()=>downloadQuote('png');
+  document.getElementById('dlJpg').onclick=()=>downloadQuote('jpg');
+  document.getElementById('calPrev').onclick=()=>{calM--;if(calM<0){calM=11;calY--;}renderCalendar();};
+  document.getElementById('calNext').onclick=()=>{calM++;if(calM>11){calM=0;calY++;}renderCalendar();};
+  document.getElementById('calToday').onclick=()=>{calY=new Date().getFullYear();calM=new Date().getMonth();renderCalendar();};
+  document.getElementById('dayClose').onclick=()=>document.getElementById('dayOverlay').classList.remove('show');
+  document.getElementById('dayOverlay').onclick=e=>{if(e.target.id==='dayOverlay')e.target.classList.remove('show');};
+  logoImg.onload=()=>drawQuote();
+
+  document.getElementById('vchPng').onclick=()=>downloadVoucher('png');
+  document.getElementById('vchJpg').onclick=()=>downloadVoucher('jpg');
+  document.getElementById('vchPdf').onclick=()=>downloadVoucher('pdf');
+  document.getElementById('vchClose').onclick=()=>document.getElementById('vchOverlay').classList.remove('show');
+  document.getElementById('vchOverlay').onclick=e=>{if(e.target.id==='vchOverlay')e.target.classList.remove('show');};
+  document.getElementById('syncOpen').onclick=openSync;
+  document.getElementById('syncSave').onclick=saveSync;
+  document.getElementById('syncPull').onclick=()=>pullSheet(false);
+  document.getElementById('syncPush').onclick=pushSheet;
+  document.getElementById('syncClose').onclick=()=>document.getElementById('syncOverlay').classList.remove('show');
+  document.getElementById('syncOverlay').onclick=e=>{if(e.target.id==='syncOverlay')e.target.classList.remove('show');};
+  if(S.syncUrl&&S.syncAuto) pullSheet(true);
+
+  // Installable manifest (Add to Home Screen)
+  try{
+    const man={name:'Haven Pad by 1228 — Booking Tracker',short_name:'Haven Pad',display:'standalone',background_color:'#F6F0E4',theme_color:'#2E2119',start_url:location.href,icons:[{src:document.querySelector('link[rel=icon]').href,sizes:'360x360',type:'image/webp'}]};
+    const l=document.createElement('link'); l.rel='manifest';
+    l.href='data:application/manifest+json,'+encodeURIComponent(JSON.stringify(man));
+    document.head.appendChild(l);
+  }catch(e){}
+}
+init();
+</script>
+</body>
+</html>
